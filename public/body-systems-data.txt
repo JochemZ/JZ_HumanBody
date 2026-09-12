@@ -1,0 +1,16 @@
+SystemID,SystemName,HexColor
+arterial,Arteries,#c05245
+cardiac,Heart,#b96760
+connective,Connective Tissue,#aec3bb
+digestive,Digestive,#b8916b
+endocrine,Endocrine,#c5a09a
+integumentary,Body Surface,#ba9b7d
+lymphatic,Lymphatic,#879f7c
+muscular,Muscles,#a85b50
+nervous,Nervous System,#d8b565
+reproductive,Reproductive,#bda098
+respiratory,Respiratory,#b98991
+sensory,Sensory Organs,#b0c8ce
+skeletal,Skeleton,#e2d9ba
+urinary,Urinary,#b47961
+venous,Veins,#527c9f

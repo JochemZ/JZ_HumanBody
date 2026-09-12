@@ -1,0 +1,14 @@
+{
+  "name": "JZ Human Atlas Embed",
+  "description": "Human anatomy visualization using iframe embed. Connects to Replit-hosted 3D viewer with full Qlik integration via postMessage.",
+  "type": "visualization",
+  "version": "1.2.3",
+  "author": "Jochem Zwienenberg",
+  "icon": "extension",
+  "preview": "preview.png",
+  "bundle": {
+    "id": "jz-human-atlas-embed",
+    "name": "Human Atlas Embed",
+    "description": "Embeds 3D anatomy with Qlik data linking"
+  }
+}

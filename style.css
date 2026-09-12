@@ -1,0 +1,290 @@
+/* Force transparent background on Qlik's wrapper elements */
+.qv-object-jz-human-atlas-embed .qv-inner-object {
+  background-color: transparent !important;
+}
+
+.qv-object-jz-human-atlas-embed .qv-object-content-container,
+.qv-object-jz-human-atlas-embed .qv-object-content {
+  background: transparent !important;
+}
+
+.jz-human-atlas-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  overflow: hidden;
+}
+
+.jz-human-atlas-canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.jz-human-atlas-canvas canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.jz-human-atlas-controls {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 100;
+}
+
+.control-panel {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.control-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+}
+
+.control-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+}
+
+.control-btn:active {
+  transform: translateY(0);
+}
+
+.jz-human-atlas-legend {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #333;
+  gap: 8px;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  flex-shrink: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.part-label {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  pointer-events: none;
+  z-index: 50;
+  white-space: nowrap;
+  backdrop-filter: blur(5px);
+}
+
+.part-hover {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.98);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  z-index: 200;
+  white-space: nowrap;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+/* Stats panel */
+.stats-panel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 200px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.stats-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #667eea;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stats-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: #555;
+}
+
+.stats-label {
+  font-weight: 600;
+}
+
+.stats-value {
+  color: #667eea;
+  font-weight: 700;
+}
+
+/* Loading indicator */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(248, 249, 250, 0.95);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid rgba(102, 126, 234, 0.2);
+  border-top-color: #667eea;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* Zoom-in entrance animation - slide from top-right, then blow up */
+.jz-atlas-waiting {
+  transform: scale(0.1) translate(80%, -80%);
+  opacity: 0;
+  transform-origin: center center;
+}
+
+@keyframes slideZoomIn {
+  0% {
+    transform: scale(0.1) translate(80%, -80%);
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) translate(0%, 0%);
+    opacity: 1;
+  }
+}
+
+.jz-atlas-zoom-in {
+  animation: slideZoomIn 2.5s ease-in-out forwards;
+  transform-origin: center center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .jz-human-atlas-controls {
+    top: 8px;
+    right: 8px;
+  }
+
+  .jz-human-atlas-legend {
+    bottom: 8px;
+    left: 8px;
+    padding: 12px;
+    max-height: 200px;
+    font-size: 11px;
+  }
+
+  .control-panel {
+    padding: 8px;
+    gap: 6px;
+  }
+
+  .control-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+  .legend-color {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+/* Selection highlight */
+.selected-part {
+  filter: brightness(1.2);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+/* Tooltip styling */
+[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  z-index: 1000;
+  pointer-events: none;
+}

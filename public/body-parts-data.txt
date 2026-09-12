@@ -1,0 +1,2235 @@
+BodyPart,SystemID
+Gingiva of upper jaw,skeletal
+Gingiva of lower jaw,skeletal
+Left lower first secondary molar tooth,skeletal
+Left lower first secondary premolar tooth,skeletal
+Left lower second secondary molar tooth,skeletal
+Left lower second secondary premolar tooth,skeletal
+Left lower central secondary incisor tooth,skeletal
+Left lower lateral secondary incisor tooth,skeletal
+Left lower secondary canine tooth,skeletal
+Left upper first secondary molar tooth,skeletal
+Left upper first secondary premolar tooth,skeletal
+Left upper second secondary molar tooth,skeletal
+Left upper second secondary premolar tooth,skeletal
+Left upper central secondary incisor tooth,skeletal
+Left upper lateral secondary incisor tooth,skeletal
+Left upper secondary canine tooth,skeletal
+Right lower first secondary molar tooth,skeletal
+Right lower first secondary premolar tooth,skeletal
+Right lower second secondary molar tooth,skeletal
+Right lower second secondary premolar tooth,skeletal
+Right lower central secondary incisor tooth,skeletal
+Right lower lateral secondary incisor tooth,skeletal
+Right lower secondary canine tooth,skeletal
+Right upper second secondary molar tooth,skeletal
+Right upper first secondary molar tooth,skeletal
+Right upper first secondary premolar tooth,skeletal
+Right upper second secondary premolar tooth,skeletal
+Right upper central secondary incisor tooth,skeletal
+Right upper lateral secondary incisor tooth,skeletal
+Right upper secondary canine tooth,skeletal
+Anterior chamber of left eyeball,sensory
+Left anterior ethmoidal nerve,nervous
+Check ligament of left lateral rectus,connective
+Left choroid,sensory
+Left choroid,sensory
+Left corona ciliaris,sensory
+Left ciliary ganglion,nervous
+Left cornea,sensory
+Left frontal nerve,nervous
+Left common tendinous ring,sensory
+Check ligament of left medial rectus,connective
+Inferior branch of left oculomotor nerve,nervous
+Left inferior oblique,muscular
+Left inferior rectus,muscular
+Left infratrochlear nerve,nervous
+Left iris,sensory
+Left lacrimal canaliculus,sensory
+Left lacrimal gland,sensory
+Left lacrimal nerve,nervous
+Left lacrimal lake,sensory
+Left nasolacrimal duct,sensory
+Left lateral rectus,muscular
+Left lens,sensory
+Left levator palpebrae superioris,muscular
+Left medial rectus,muscular
+Left lacrimal sac,sensory
+Left nasociliary nerve,nervous
+Communicating branch of left nasociliary nerve with left ciliary ganglion,nervous
+Left ophthalmic nerve,nervous
+Left optic nerve,nervous
+Left posterior ethmoidal nerve,nervous
+Optic part of left retina,sensory
+Left sclera,sensory
+Left long ciliary nerve,nervous
+Short ciliary nerve,nervous
+Suspensory ligament of left lens,sensory
+Superior branch of left oculomotor nerve,nervous
+Left superior oblique,muscular
+Left superior rectus,muscular
+Tarsal plate of left upper eyelid,sensory
+Left supra-orbital nerve,nervous
+Left supratrochlear nerve,nervous
+Tarsal plate of left lower eyelid,sensory
+Trochlea of left superior oblique,connective
+Left trochlear nerve,nervous
+Left vitreous body,sensory
+Anterior chamber of right eyeball,sensory
+Right anterior ethmoidal nerve,nervous
+Check ligament of right lateral rectus,connective
+Check ligament of right medial rectus,connective
+Right choroid,sensory
+Right choroid,sensory
+Right corona ciliaris,sensory
+Right ciliary ganglion,nervous
+Right cornea,sensory
+Right frontal nerve,nervous
+Right common tendinous ring,sensory
+Tendon of right levator palpebrae superioris,connective
+Inferior branch of right oculomotor nerve,nervous
+Right inferior oblique,muscular
+Right inferior rectus,muscular
+Right infratrochlear nerve,nervous
+Right iris,sensory
+Right lacrimal canaliculus,sensory
+Right lacrimal gland,sensory
+Right lacrimal nerve,nervous
+Right lacrimal lake,sensory
+Right nasolacrimal duct,sensory
+Right lateral rectus,muscular
+Right lens,sensory
+Right levator palpebrae superioris,muscular
+Right medial rectus,muscular
+Right lacrimal sac,sensory
+Right nasociliary nerve,nervous
+Communicating branch of right nasociliary nerve with right ciliary ganglion,nervous
+Right ophthalmic nerve,nervous
+Right optic nerve,nervous
+Right posterior ethmoidal nerve,nervous
+Optic part of right retina,sensory
+Right sclera,sensory
+Right long ciliary nerve,nervous
+Short ciliary nerve,nervous
+Suspensory ligament of right lens,sensory
+Superior branch of right oculomotor nerve,nervous
+Right superior oblique,muscular
+Right superior rectus,muscular
+Tarsal plate of right upper eyelid,sensory
+Right supra-orbital nerve,nervous
+Right supratrochlear nerve,nervous
+Tarsal plate of right lower eyelid,sensory
+Trochlea of right superior oblique,connective
+Right trochlear nerve,nervous
+Right vitreous body,sensory
+First lumbrical of right foot,muscular
+First lumbrical of left foot,muscular
+First plantar interosseous of right foot,muscular
+First plantar interosseous of left foot,muscular
+Second lumbrical of right foot,muscular
+Second lumbrical of left foot,muscular
+Second plantar interosseous of right foot,muscular
+Second plantar interosseous of left foot,muscular
+Third lumbrical of right foot,muscular
+Third lumbrical of left foot,muscular
+Third plantar interosseous of right foot,muscular
+Third plantar interosseous of left foot,muscular
+Fourth lumbrical of right foot,muscular
+Fourth lumbrical of left foot,muscular
+Abductor digiti minimi of right foot,muscular
+Abductor digiti minimi of left foot,muscular
+Flexor digiti minimi brevis of right foot,muscular
+Flexor digiti minimi brevis of left foot,muscular
+Interosseous membrane of right leg,connective
+Interosseous membrane of left leg,connective
+Lateral head of right flexor hallucis brevis,muscular
+Lateral head of left flexor hallucis brevis,muscular
+Lateral head of right gastrocnemius,muscular
+Lateral head of left gastrocnemius,muscular
+Long head of right biceps femoris,muscular
+Long head of left biceps femoris,muscular
+Medial head of right flexor hallucis brevis,muscular
+Medial head of left flexor hallucis brevis,muscular
+Medial head of right gastrocnemius,muscular
+Medial head of left gastrocnemius,muscular
+Oblique head of right adductor hallucis,muscular
+Oblique head of left adductor hallucis,muscular
+Opponens digiti minimi of right foot,muscular
+Opponens digiti minimi of left foot,muscular
+Right abductor hallucis,muscular
+Left abductor hallucis,muscular
+Right adductor brevis,muscular
+Left adductor brevis,muscular
+Right adductor longus,muscular
+Left adductor longus,muscular
+Right adductor magnus,muscular
+Left adductor magnus,muscular
+Right adductor minimus,muscular
+Left adductor minimus,muscular
+Right calcaneal tendon,connective
+Left calcaneal tendon,connective
+Right extensor digitorum longus,muscular
+Left extensor digitorum longus,muscular
+Right extensor hallucis brevis,muscular
+Left extensor hallucis brevis,muscular
+Right extensor hallucis longus,muscular
+Left extensor hallucis longus,muscular
+Right fibularis brevis,skeletal
+Left fibularis brevis,skeletal
+Right fibularis longus,skeletal
+Left fibularis longus,skeletal
+Right fibularis tertius,skeletal
+Left fibularis tertius,skeletal
+Right flexor accessorius,muscular
+Left flexor accessorius,muscular
+Right flexor digitorum brevis,muscular
+Left flexor digitorum brevis,muscular
+Right flexor digitorum longus,muscular
+Left flexor digitorum longus,muscular
+Right flexor hallucis longus,muscular
+Left flexor hallucis longus,muscular
+Right gemellus inferior,muscular
+Left gemellus inferior,muscular
+Right gemellus superior,muscular
+Left gemellus superior,muscular
+Right gluteus maximus,muscular
+Left gluteus maximus,muscular
+Right gluteus medius,muscular
+Left gluteus medius,muscular
+Right gluteus minimus,muscular
+Left gluteus minimus,muscular
+Right gracilis,muscular
+Left gracilis,muscular
+Right iliacus,muscular
+Left iliacus,muscular
+Right iliotibial tract,skeletal
+Left iliotibial tract,skeletal
+Right long plantar ligament,connective
+Left long plantar ligament,connective
+Right obturator externus,muscular
+Left obturator externus,muscular
+Right obturator internus,muscular
+Left obturator internus,muscular
+Right pectineus,muscular
+Left pectineus,muscular
+Right piriformis,muscular
+Left piriformis,muscular
+Right plantaris,muscular
+Left plantaris,muscular
+Right popliteus,muscular
+Left popliteus,muscular
+Right psoas major,muscular
+Left psoas major,muscular
+Right quadratus femoris,muscular
+Left quadratus femoris,muscular
+Right rectus femoris,muscular
+Left rectus femoris,muscular
+Right sartorius,muscular
+Left sartorius,muscular
+Right semimembranosus,muscular
+Left semimembranosus,muscular
+Right semitendinosus,muscular
+Left semitendinosus,muscular
+Right soleus,muscular
+Left soleus,muscular
+Right tensor fasciae latae,connective
+Left tensor fasciae latae,connective
+Right tibialis anterior,skeletal
+Left tibialis anterior,skeletal
+Right tibialis posterior,skeletal
+Left tibialis posterior,skeletal
+Right vastus intermedius,muscular
+Left vastus intermedius,muscular
+Right vastus lateralis,muscular
+Left vastus lateralis,muscular
+Right vastus medialis,muscular
+Left vastus medialis,muscular
+Short head of right biceps femoris,muscular
+Short head of left biceps femoris,muscular
+Transverse head of right adductor hallucis,muscular
+Transverse head of left adductor hallucis,muscular
+Abdominal part of right pectoralis major,muscular
+Abdominal part of left pectoralis major,muscular
+Clavicular part of right pectoralis major,muscular
+Clavicular part of left pectoralis major,muscular
+Linea alba,connective
+Left coccygeus,muscular
+superficial perineal muscle,muscular
+External anal sphincter,muscular
+external intercostal muscle,muscular
+External intercostal muscle,muscular
+Right external oblique,muscular
+Left external oblique,muscular
+Left iliococcygeus,muscular
+innermost intercostal muscle,muscular
+Innermost intercostal muscle,muscular
+internal intercostal muscle,muscular
+Internal intercostal muscle,muscular
+Right pectoralis minor,muscular
+Left pectoralis minor,muscular
+Left pubococcygeus,muscular
+Left puborectalis,muscular
+Right serratus anterior,muscular
+Left serratus anterior,muscular
+Right subclavius,muscular
+Left subclavius,muscular
+Right transversus thoracis,muscular
+Left transversus thoracis,muscular
+Set of right levatores costarum breves,muscular
+Set of left levatores costarum breves,muscular
+Set of right levatores costarum longi,muscular
+Set of left levatores costarum longi,muscular
+Sternocostal part of right pectoralis major,muscular
+Sternocostal part of left pectoralis major,muscular
+tendinous arch of levator ani,connective
+Tendinous arch of levator ani,connective
+Abductor digiti minimi of right hand,muscular
+Abductor digiti minimi of left hand,muscular
+Acromial part of right deltoid,muscular
+Acromial part of left deltoid,muscular
+Clavicular part of right deltoid,muscular
+Clavicular part of left deltoid,muscular
+Left flexor pollicis brevis,muscular
+Right flexor pollicis brevis,muscular
+Flexor digiti minimi brevis of right hand,muscular
+Flexor digiti minimi brevis of left hand,muscular
+Flexor retinaculum of right wrist,sensory
+Flexor retinaculum of left wrist,sensory
+Right extensor carpi ulnaris,muscular
+Left extensor carpi ulnaris,muscular
+Humeral head of right flexor carpi ulnaris,muscular
+Humeral head of left flexor carpi ulnaris,muscular
+Humeral head of right pronator teres,muscular
+Humeral head of left pronator teres,muscular
+Right flexor digitorum superficialis,muscular
+Left flexor digitorum superficialis,muscular
+Interosseous membrane of right forearm,connective
+Interosseous membrane of left forearm,connective
+Lateral head of right triceps brachii,muscular
+Lateral head of left triceps brachii,muscular
+Long head of right biceps brachii,muscular
+Long head of left biceps brachii,muscular
+Long head of right triceps brachii,muscular
+Long head of left triceps brachii,muscular
+Medial head of right triceps brachii,muscular
+Medial head of left triceps brachii,muscular
+Oblique head of right adductor pollicis,muscular
+Oblique head of left adductor pollicis,muscular
+Opponens digiti minimi of right hand,muscular
+Opponens digiti minimi of left hand,muscular
+Right abductor pollicis brevis,muscular
+Left abductor pollicis brevis,muscular
+Right abductor pollicis longus,muscular
+Left abductor pollicis longus,muscular
+Right anconeus,muscular
+Left anconeus,muscular
+Right brachialis,muscular
+Left brachialis,muscular
+Right brachioradialis,muscular
+Left brachioradialis,muscular
+Right coracobrachialis,muscular
+Left coracobrachialis,muscular
+Right extensor carpi radialis brevis,muscular
+Left extensor carpi radialis brevis,muscular
+Right extensor carpi radialis longus,muscular
+Left extensor carpi radialis longus,muscular
+Right extensor digiti minimi,muscular
+Left extensor digiti minimi,muscular
+Right extensor digitorum,muscular
+Left extensor digitorum,muscular
+Right extensor indicis,muscular
+Left extensor indicis,muscular
+Right extensor pollicis brevis,muscular
+Left extensor pollicis brevis,muscular
+Right extensor pollicis longus,muscular
+Left extensor pollicis longus,muscular
+Right flexor carpi radialis,muscular
+Left flexor carpi radialis,muscular
+Right flexor digitorum profundus,muscular
+Left flexor digitorum profundus,muscular
+Right flexor pollicis longus,muscular
+Left flexor pollicis longus,muscular
+Right flexor digitorum superficialis,muscular
+Left flexor digitorum superficialis,muscular
+Right infraspinatus muscle,muscular
+Left infraspinatus muscle,muscular
+Right opponens pollicis,muscular
+Left opponens pollicis,muscular
+Right palmaris longus,muscular
+Left palmaris longus,muscular
+Right pronator quadratus,muscular
+Left pronator quadratus,muscular
+Right subscapularis,skeletal
+Left subscapularis,skeletal
+Right supinator,muscular
+Left supinator,muscular
+Right supraspinatus,muscular
+Left supraspinatus,muscular
+Right teres major,muscular
+Left teres major,muscular
+Right teres minor,muscular
+Left teres minor,muscular
+Set of dorsal interossei of right hand,muscular
+Set of dorsal interossei of left hand,muscular
+Set of lumbricals of right hand,muscular
+Set of lumbricals of left hand,muscular
+Set of palmar interossei of right hand,muscular
+Set of palmar interossei of left hand,muscular
+Short head of right biceps brachii,muscular
+Short head of left biceps brachii,muscular
+Spinal part of right deltoid,muscular
+Spinal part of left deltoid,muscular
+Superficial head of right flexor pollicis brevis,muscular
+Superficial head of left flexor pollicis brevis,muscular
+Transverse head of right adductor pollicis,muscular
+Transverse head of left adductor pollicis,muscular
+Ulnar head of right pronator teres,muscular
+Ulnar head of left pronator teres,muscular
+Right extensor carpi ulnaris,muscular
+Left extensor carpi ulnaris,muscular
+Ulnar head of right flexor carpi ulnaris,muscular
+Ulnar head of left flexor carpi ulnaris,muscular
+Ascending part of right trapezius,muscular
+Ascending part of left trapezius,muscular
+Descending part of right trapezius,muscular
+Descending part of left trapezius,muscular
+Right lumbar rotator,muscular
+Left lumbar rotator,muscular
+Right cervical rotator,muscular
+Left cervical rotator,muscular
+thoracic rotator,muscular
+Thoracic rotator,muscular
+Right iliocostalis cervicis,muscular
+Left iliocostalis cervicis,muscular
+Right iliocostalis lumborum,muscular
+Left iliocostalis lumborum,muscular
+Right iliocostalis thoracis,muscular
+Left iliocostalis thoracis,muscular
+Right levator scapulae,skeletal
+Left levator scapulae,skeletal
+Right longissimus capitis,muscular
+Left longissimus capitis,muscular
+Right longissimus cervicis,muscular
+Left longissimus cervicis,muscular
+Right longissimus thoracis,muscular
+Left longissimus thoracis,muscular
+Right rhomboid major,muscular
+Left rhomboid major,muscular
+Right rhomboid minor,muscular
+Left rhomboid minor,muscular
+Right semispinalis capitis,muscular
+Left semispinalis capitis,muscular
+Right semispinalis cervicis,muscular
+Left semispinalis cervicis,muscular
+Right semispinalis thoracis,muscular
+Left semispinalis thoracis,muscular
+Right serratus posterior inferior,muscular
+Left serratus posterior inferior,muscular
+Right serratus posterior superior,muscular
+Left serratus posterior superior,muscular
+spinalis,muscular
+Spinalis,muscular
+Right spinalis thoracis,muscular
+Left spinalis thoracis,muscular
+Right splenius capitis,muscular
+Left splenius capitis,muscular
+Right splenius cervicis,muscular
+Left splenius cervicis,muscular
+lateral lumbar intertransversarius,muscular
+Lateral lumbar intertransversarius,muscular
+medial lumbar intertransversarius,muscular
+Medial lumbar intertransversarius,muscular
+set of anterior cervical intertransversarii,muscular
+Set of anterior cervical intertransversarii,muscular
+set of interspinales lumborum,muscular
+Set of interspinales lumborum,muscular
+Right interspinalis thoracis,muscular
+Left interspinalis thoracis,muscular
+set of interspinales cervicis,muscular
+Set of interspinales cervicis,muscular
+set of posterior cervical intertransversarii,muscular
+Set of posterior cervical intertransversarii,muscular
+Transverse part of right trapezius,muscular
+Transverse part of left trapezius,muscular
+Left digastric,muscular
+Right digastric,muscular
+Inferior oblique part of left longus colli,muscular
+Left platysma,muscular
+Left geniohyoid,muscular
+Left digastric,muscular
+Left longus capitis,muscular
+Left mylohyoid,muscular
+Left obliquus capitis inferior,muscular
+Left obliquus capitis superior,muscular
+Left omohyoid,muscular
+Left rectus capitis anterior,muscular
+Left rectus capitis posterior major,muscular
+Left rectus capitis posterior minor,muscular
+Left rectus capitis lateralis,muscular
+Left scalenus anterior,muscular
+Left scalenus medius,muscular
+Left scalenus posterior,muscular
+Left sternocleidomastoid,muscular
+Left sternohyoid,muscular
+Left sternothyroid,muscular
+Left stylohyoid,muscular
+Left thyrohyoid,muscular
+Left digastric,muscular
+Right digastric,muscular
+Right geniohyoid,muscular
+Right intermediate tendon,connective
+Right longus capitis,muscular
+Right mylohyoid,muscular
+Right obliquus capitis inferior,muscular
+Right obliquus capitis superior,muscular
+Right omohyoid,muscular
+Right platysma,muscular
+Right rectus capitis anterior,muscular
+Right rectus capitis posterior major,muscular
+Right rectus capitis posterior minor,muscular
+Right rectus capitis lateralis,muscular
+Right scalenus anterior,muscular
+Right scalenus medius,muscular
+Right scalenus posterior,muscular
+Right sternocleidomastoid,muscular
+Right sternohyoid,muscular
+Right sternothyroid,muscular
+Right stylohyoid,muscular
+Right thyrohyoid,muscular
+Superior oblique part of left longus colli,muscular
+Vertical intermediate part of left longus colli,muscular
+Right anterior cerebral artery,arterial
+Left anterior cerebral artery,arterial
+Anterior communicating artery,arterial
+anterior inferior cerebellar artery,arterial
+Anterior inferior cerebellar artery,arterial
+Right anterior spinal artery,arterial
+Left anterior spinal artery,arterial
+Right anterior choroidal artery,arterial
+Left anterior choroidal artery,arterial
+Right anterior temporal artery,arterial
+Left anterior temporal artery,arterial
+Insular part of right middle cerebral artery,arterial
+Insular part of left middle cerebral artery,arterial
+Anterior temporal branch of right lateral occipital artery,arterial
+Anterior temporal branch of left lateral occipital artery,arterial
+Anterolateral central branch of right middle cerebral artery,arterial
+Anterolateral central branch of left middle cerebral artery,arterial
+Anterolateral central branch of right middle cerebral artery,arterial
+Anterolateral central branch of left middle cerebral artery,arterial
+artery of central sulcus,arterial
+Artery of central sulcus,arterial
+artery of central sulcus,arterial
+Artery of central sulcus,arterial
+Artery of right postcentral sulcus,arterial
+Artery of left postcentral sulcus,arterial
+Right anterior parietal artery,arterial
+Left anterior parietal artery,arterial
+Artery of right precentral sulcus,arterial
+Artery of left precentral sulcus,arterial
+Artery of right precentral sulcus,arterial
+Artery of left precentral sulcus,arterial
+Artery of right precentral sulcus,arterial
+Artery of left precentral sulcus,arterial
+Precuneal branch of right pericallosal artery,arterial
+Precuneal branch of left pericallosal artery,arterial
+Basilar artery,arterial
+Branch of right middle cerebral artery to right angular gyrus,arterial
+Branch of left middle cerebral artery to left angular gyrus,arterial
+Branch of right anterior choroidal artery to posterior limb of right internal capsule,arterial
+Branch of left anterior choroidal artery to posterior limb of left internal capsule,arterial
+Right thalamogeniculate artery,arterial
+Left thalamogeniculate artery,arterial
+Right callosomarginal artery,arterial
+Left callosomarginal artery,arterial
+Right splenial artery,arterial
+Left splenial artery,arterial
+Right splenial artery,arterial
+Left splenial artery,arterial
+Hypothalamic branch of right posterior communicating artery,arterial
+Hypothalamic branch of left posterior communicating artery,arterial
+Middle temporal branch of right lateral occipital artery,arterial
+Middle temporal branch of left lateral occipital artery,arterial
+Intermediomedial branch of right callosomarginal artery,arterial
+Intermediomedial branch of left callosomarginal artery,arterial
+Right internal carotid artery,arterial
+Left internal carotid artery,arterial
+Lateral branch of right superior cerebellar artery,arterial
+Lateral branch of left superior cerebellar artery,arterial
+Lateral branch of right pontine artery,arterial
+Lateral branch of left pontine artery,arterial
+Right lateral frontobasal artery,arterial
+Left lateral frontobasal artery,arterial
+Right lateral frontobasal artery,arterial
+Left lateral frontobasal artery,arterial
+Right lateral occipital artery,arterial
+Left lateral occipital artery,arterial
+Medial branch of right superior cerebellar artery,arterial
+Medial branch of left superior cerebellar artery,arterial
+Medial branch of right pontine artery,arterial
+Medial branch of left pontine artery,arterial
+Right medial frontobasal artery,arterial
+Left medial frontobasal artery,arterial
+Right medial occipital artery,arterial
+Left medial occipital artery,arterial
+Sphenoid part of right middle cerebral artery,arterial
+Sphenoid part of left middle cerebral artery,arterial
+Middle temporal branch of right middle cerebral artery,arterial
+Middle temporal branch of left middle cerebral artery,arterial
+Insular part of right middle cerebral artery,arterial
+Insular part of left middle cerebral artery,arterial
+Right ophthalmic artery,arterial
+Left ophthalmic artery,arterial
+Paracentral branch of right callosomarginal artery,arterial
+Paracentral branch of left callosomarginal artery,arterial
+Paracentral branch of right callosomarginal artery,arterial
+Paracentral branch of left callosomarginal artery,arterial
+Paracentral branch of right callosomarginal artery,arterial
+Paracentral branch of left callosomarginal artery,arterial
+Right pericallosal artery,arterial
+Left pericallosal artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right polar temporal artery,arterial
+Left polar temporal artery,arterial
+Right posterior communicating artery,arterial
+Left posterior communicating artery,arterial
+Postcommunicating part of right posterior cerebral artery,arterial
+Postcommunicating part of left posterior cerebral artery,arterial
+Right posterior inferior cerebellar artery,arterial
+Left posterior inferior cerebellar artery,arterial
+Right posterior parietal artery,arterial
+Left posterior parietal artery,arterial
+Posterior temporal branch of right middle cerebral artery,arterial
+Posterior temporal branch of left middle cerebral artery,arterial
+Trunk of inferior terminal branch of right middle cerebral artery,arterial
+Trunk of inferior terminal branch of left middle cerebral artery,arterial
+set of posterior temporal branches of lateral occipital artery,arterial
+Set of posterior temporal branches of lateral occipital artery,arterial
+Right thalamoperforating artery,arterial
+Left thalamoperforating artery,arterial
+Posteromedial central branch of right posterior cerebral artery,arterial
+Posteromedial central branch of left posterior cerebral artery,arterial
+Posteromedial branch of right callosomarginal artery,arterial
+Posteromedial branch of left callosomarginal artery,arterial
+Precommunicating part of right posterior cerebral artery,arterial
+Precommunicating part of left posterior cerebral artery,arterial
+Right prefrontal artery,arterial
+Left prefrontal artery,arterial
+Right vertebral artery,arterial
+Left vertebral artery,arterial
+Right superior cerebellar artery,arterial
+Left superior cerebellar artery,arterial
+Right posterior medial choroidal artery,arterial
+Left posterior medial choroidal artery,arterial
+Superior vermian branch of medial branch of right superior cerebellar artery,arterial
+Superior vermian branch of medial branch of left superior cerebellar artery,arterial
+Temporo-occipital branch of right middle cerebral artery,arterial
+Temporo-occipital branch of left middle cerebral artery,arterial
+Third ventricle,cardiac
+Fourth ventricle,cardiac
+Left angular gyrus,nervous
+Right angular gyrus,nervous
+Anterior commissure,nervous
+Brachium of left superior colliculus,nervous
+Brachium of right superior colliculus,nervous
+Central canal of spinal cord,nervous
+Cerebral aqueduct,nervous
+Left cingulate gyrus,nervous
+Right cingulate gyrus,nervous
+Commissure of fornix of forebrain,nervous
+Corpus callosum,nervous
+Habenula,nervous
+Left inferior frontal gyrus,nervous
+Right inferior frontal gyrus,nervous
+Left inferior temporal gyrus,nervous
+Right inferior temporal gyrus,nervous
+Left insula,nervous
+Right insula,nervous
+Left internal capsule,nervous
+Right internal capsule,nervous
+Interventricular foramen,cardiac
+Left amygdala,nervous
+Left caudate nucleus,nervous
+Choroid plexus of cerebral hemisphere,sensory
+Left fornix of forebrain,nervous
+Left globus pallidus,nervous
+White matter of left cerebral hemisphere,nervous
+Left hippocampus,nervous
+Hypothalamus,nervous
+Brachium of left inferior colliculus,nervous
+Left inferior colliculus,nervous
+Interpeduncular fossa,nervous
+Lamina terminalis,nervous
+Left lateral geniculate body,nervous
+Left lateral ventricle,cardiac
+Mammillary body,nervous
+Medulla oblongata,nervous
+Midbrain,nervous
+Optic chiasm,nervous
+Left optic nerve,nervous
+Left optic tract,nervous
+Peduncle of midbrain,nervous
+Pons,nervous
+Left putamen,nervous
+Left stria medullaris of thalamus,nervous
+Left stria terminalis,nervous
+Left superior colliculus,nervous
+Tuber cinereum,nervous
+Cerebellum,nervous
+Left thalamus,nervous
+Left fusiform gyrus,nervous
+Right fusiform gyrus,nervous
+Left parahippocampal gyrus,nervous
+Right parahippocampal gyrus,nervous
+Left middle frontal gyrus,nervous
+Right middle frontal gyrus,nervous
+Left middle temporal gyrus,nervous
+Right middle temporal gyrus,nervous
+Left occipital lobe,nervous
+Right occipital lobe,nervous
+Orbital gyrus,nervous
+Orbital gyrus,nervous
+Pineal body,endocrine
+Pituitary gland,endocrine
+Left postcentral gyrus,nervous
+Right postcentral gyrus,nervous
+Posterior commissure,nervous
+Left precentral gyrus,nervous
+Right precentral gyrus,nervous
+Right caudate nucleus,nervous
+Choroid plexus of cerebral hemisphere,sensory
+Right fornix of forebrain,nervous
+Right globus pallidus,nervous
+White matter of right cerebral hemisphere,nervous
+Right hippocampus,nervous
+Hypothalamus,nervous
+Brachium of right inferior colliculus,nervous
+Right inferior colliculus,nervous
+Interpeduncular fossa,nervous
+Lamina terminalis,nervous
+Right lateral geniculate body,nervous
+Right lateral ventricle,cardiac
+Mammillary body,nervous
+Right medial geniculate body,nervous
+Left medial geniculate body,nervous
+Midbrain,nervous
+Optic chiasm,nervous
+Right optic nerve,nervous
+Right optic tract,nervous
+Peduncle of midbrain,nervous
+Pons,nervous
+Right putamen,nervous
+Right stria medullaris of thalamus,nervous
+Stria terminalis,nervous
+Right superior colliculus,nervous
+Right thalamus,nervous
+Tuber cinereum,nervous
+Right amygdala,nervous
+Cerebellum,nervous
+Medulla oblongata,nervous
+Septum of telencephalon,nervous
+Left superior frontal gyrus,nervous
+Right superior frontal gyrus,nervous
+Left superior parietal lobule,nervous
+Right superior parietal lobule,nervous
+Anterior part of left superior temporal gyrus,nervous
+Anterior part of right superior temporal gyrus,nervous
+Posterior part of left superior temporal gyrus,nervous
+Posterior part of right superior temporal gyrus,nervous
+Left supramarginal gyrus,nervous
+Right supramarginal gyrus,nervous
+Tentorium cerebelli,nervous
+Basilar artery,arterial
+Celiac artery,arterial
+Hepatic portal vein,venous
+Hepatovenous segment IX,venous
+Tributary of middle hepatic vein,venous
+Left lobe branch of left hepatic artery,arterial
+Caudate lobe tributary of left hepatic biliary tree,digestive
+Left portal vein,venous
+Pancreas,digestive
+Pancreatic duct,digestive
+Right portal vein,venous
+Caudate lobe branch of right portal vein,venous
+Caudate lobe branch of right hepatic artery,arterial
+Right lobe branch of right hepatic artery,arterial
+Superior mesenteric artery,arterial
+Descending thoracic aorta,arterial
+Abdominal aorta,arterial
+Bronchial artery,arterial
+Esophageal artery,arterial
+Right superior intercostal artery,arterial
+Right superior epigastric artery,arterial
+Right internal thoracic artery,arterial
+Right lateral thoracic artery,arterial
+Right first posterior intercostal artery,arterial
+Right second posterior intercostal artery,arterial
+Posterior intercostal arteries,arterial
+Right subcostal artery,arterial
+Right musculophrenic artery,arterial
+Left superior intercostal artery,arterial
+Left superior epigastric artery,arterial
+Left internal thoracic artery,arterial
+Left first posterior intercostal artery,arterial
+Left second posterior intercostal artery,arterial
+Posterior intercostal arteries,arterial
+Left lateral thoracic artery,arterial
+Left subcostal artery,arterial
+Left musculophrenic artery,arterial
+Accessory hemiazygos vein,venous
+Set of anterior intercostal veins,venous
+Left superior intercostal vein,venous
+Left subcostal vein,venous
+Left musculophrenic vein,venous
+Right superior intercostal vein,venous
+Right internal thoracic vein,venous
+Set of anterior intercostal veins,venous
+Right subcostal vein,venous
+Right musculophrenic vein,venous
+Superior mesenteric artery,arterial
+Celiac artery,arterial
+Marginal colic artery,arterial
+Ileal branch of inferior branch of ileocolic artery,arterial
+Right renal artery,arterial
+Right anterior segmental artery,arterial
+Superior segmental branch of right renal artery,arterial
+Inferior segmental branch of right renal artery,arterial
+Right anterior segmental artery,arterial
+Posterior segmental branch of right renal artery,arterial
+Left renal artery,arterial
+Inferior segmental branch of left renal artery,arterial
+Superior segmental branch of left renal artery,arterial
+Posterior segmental branch of left renal artery,arterial
+Posterior segmental branch of left renal artery,arterial
+Right dorsalis pedis artery,arterial
+Deep dorsal vein of penis,venous
+Descending branch of right lateral circumflex femoral artery,arterial
+Distal perforating artery,arterial
+Dorsal venous arch of left foot,venous
+Dorsal venous arch of left foot,venous
+Dorsal venous arch of right foot,venous
+Dorsal venous arch of right foot,venous
+Descending branch of left lateral circumflex femoral artery,arterial
+Distal perforating artery,arterial
+Left anterior tibial artery,arterial
+Left anterior tibial recurrent artery,arterial
+Left arcuate artery,arterial
+Left deep plantar artery,arterial
+Left descending genicular artery,arterial
+Dorsal digital artery of foot,arterial
+Left dorsalis pedis artery,arterial
+Left femoral artery,arterial
+Left inferior lateral genicular artery,arterial
+Left inferior medial genicular artery,arterial
+Left lateral circumflex femoral artery,arterial
+Left lateral plantar artery,arterial
+Left lateral superior genicular artery,arterial
+Left lateral tarsal artery,arterial
+Left medial plantar artery,arterial
+Left medial superior genicular artery,arterial
+Left middle genicular artery,arterial
+Left plantar arch,arterial
+Left popliteal artery,arterial
+Left posterior tibial artery,arterial
+Left superficial medial plantar artery,arterial
+Set of perforating arteries,arterial
+Set of calcaneal branches of posterior tibial artery,arterial
+Set of common plantar digital arteries,arterial
+Set of dorsal digital arteries,arterial
+Set of perforating arteries,arterial
+Set of plantar digital arteries proper,arterial
+Plantar metatarsal artery,arterial
+Left anterior tibial vein,venous
+Left deep femoral vein,venous
+Set of perforating veins,venous
+Left femoral vein,venous
+Left great saphenous vein,venous
+Left genicular vein,venous
+Left genicular vein,venous
+Tributary of plantar venous arch,venous
+Tributary of plantar venous arch,venous
+Left popliteal vein,venous
+Left posterior tibial vein,venous
+Set of perforating veins,venous
+Set of plantar digital veins,venous
+Left small saphenous vein,venous
+Left superficial epigastric vein,venous
+Left genicular vein,venous
+Left genicular vein,venous
+Set of perforating arteries,arterial
+Plantar venous arch of left foot,venous
+Plantar venous arch of right foot,venous
+Right anterior tibial artery,arterial
+Right anterior tibial recurrent artery,arterial
+Right anterior tibial vein,venous
+Right arcuate artery,arterial
+Right deep femoral vein,venous
+Right deep plantar artery,arterial
+Right descending genicular artery,arterial
+Set of perforating veins,venous
+Dorsal digital artery of foot,arterial
+Right femoral artery,arterial
+Right femoral vein,venous
+Right great saphenous vein,venous
+Right inferior lateral genicular artery,arterial
+Right genicular vein,venous
+Right inferior medial genicular artery,arterial
+Right genicular vein,venous
+Right lateral circumflex femoral artery,arterial
+Right lateral plantar artery,arterial
+Tributary of plantar venous arch,venous
+Right lateral superior genicular artery,arterial
+Right lateral tarsal artery,arterial
+Right medial plantar artery,arterial
+Tributary of plantar venous arch,venous
+Right medial superior genicular artery,arterial
+Right middle genicular artery,arterial
+Right plantar arch,arterial
+Right popliteal artery,arterial
+Right popliteal vein,venous
+Right posterior tibial artery,arterial
+Right posterior tibial vein,venous
+Set of perforating veins,venous
+Set of plantar digital veins,venous
+Right small saphenous vein,venous
+Right superficial epigastric vein,venous
+Right superficial medial plantar artery,arterial
+Right genicular vein,venous
+Right genicular vein,venous
+Left anterior tibial vein,venous
+Left fibular vein,venous
+Set of dorsal digital veins,venous
+Dorsal metacarpal vein,venous
+Left fibular vein,venous
+Left lateral circumflex femoral vein,venous
+Left medial circumflex femoral vein,venous
+Right fibular vein,venous
+Plantar metatarsal vein,venous
+Set of perforating veins,venous
+Right anterior tibial vein,venous
+Right fibular vein,venous
+Set of calcaneal branches of posterior tibial artery,arterial
+Set of common plantar digital arteries,arterial
+Set of dorsal digital arteries,arterial
+Set of dorsal digital veins,venous
+Dorsal metacarpal vein,venous
+Right fibular vein,venous
+Right lateral circumflex femoral vein,venous
+Right medial circumflex femoral vein,venous
+Set of perforating arteries,arterial
+Set of plantar digital arteries proper,arterial
+Set of plantar digital arteries proper,arterial
+Plantar metatarsal artery,arterial
+Plantar metatarsal vein,venous
+Superficial dorsal vein of penis,venous
+Right inferior thyroid artery,arterial
+Left inferior thyroid artery,arterial
+Acromial branch of left thoraco-acromial artery,arterial
+Left anterior circumflex humeral artery,arterial
+Left anterior circumflex humeral vein,venous
+Left anterior interosseous artery,arterial
+Left inferior ulnar collateral artery,arterial
+Left axillary artery,arterial
+Left axillary vein,venous
+Left basilic vein,venous
+Left brachial artery,arterial
+Left cephalic vein,venous
+Left circumflex scapular artery,arterial
+Left circumflex scapular vein,venous
+Left common interosseous artery,arterial
+Left costocervical trunk,arterial
+Left deep brachial artery,arterial
+Left deep cervical artery,arterial
+Left deep palmar arch,arterial
+Dorsal venous network of left hand,venous
+Left deep palmar venous arch,venous
+Deltoid branch of left thoraco-acromial artery,arterial
+Dorsal carpal branch of left radial artery,arterial
+Left dorsal scapular artery,arterial
+Left lateral thoracic vein,venous
+Left median antebrachial vein,venous
+Left median cubital vein,venous
+Left dorsal carpal branch of ulnar artery,arterial
+Left palmar metacarpal artery,arterial
+Left palmar metacarpal vein,venous
+Left posterior circumflex humeral artery,arterial
+Left posterior circumflex humeral artery,arterial
+Left posterior ulnar recurrent artery,arterial
+Left radial artery,arterial
+Left radial recurrent artery,arterial
+Left radial vein,venous
+Left recurrent interosseous artery,arterial
+Left subscapular artery,arterial
+Left subscapular vein,venous
+Left superficial palmar arterial arch,arterial
+Left superficial palmar venous arch,venous
+Left suprascapular vein,venous
+Left suprascapular artery,arterial
+Trunk of left thoraco-acromial artery,arterial
+Left thoracodorsal artery,arterial
+Left thoracodorsal vein,venous
+Left thyrocervical trunk,arterial
+Left superficial cervical artery,arterial
+Left transverse cervical artery,arterial
+Left ulnar artery,arterial
+Left anterior ulnar recurrent artery,arterial
+Left ulnar vein,venous
+Radial collateral branch of left deep brachial artery,arterial
+Radial collateral branch of right deep brachial artery,arterial
+Acromial branch of right thoraco-acromial artery,arterial
+Right anterior circumflex humeral artery,arterial
+Right anterior circumflex humeral vein,venous
+Right anterior interosseous artery,arterial
+Right inferior ulnar collateral artery,arterial
+Right axillary artery,arterial
+Right axillary vein,venous
+Right basilic vein,venous
+Right brachial artery,arterial
+Right cephalic vein,venous
+Right circumflex scapular artery,arterial
+Right circumflex scapular vein,venous
+Right common interosseous artery,arterial
+Right costocervical trunk,arterial
+Right deep brachial artery,arterial
+Right deep cervical artery,arterial
+Right deep palmar arch,arterial
+Dorsal venous network of right hand,venous
+Right deep palmar venous arch,venous
+Deltoid branch of right thoraco-acromial artery,arterial
+Dorsal carpal branch of right radial artery,arterial
+Right dorsal scapular artery,arterial
+Right lateral thoracic vein,venous
+Right median antebrachial vein,venous
+Right median cubital vein,venous
+Right dorsal carpal branch of ulnar artery,arterial
+Right palmar metacarpal artery,arterial
+Right palmar metacarpal vein,venous
+Right posterior circumflex humeral artery,arterial
+Right posterior circumflex humeral artery,arterial
+Right posterior ulnar recurrent artery,arterial
+Right radial artery,arterial
+Right radial recurrent artery,arterial
+Right radial vein,venous
+Right recurrent interosseous artery,arterial
+Right subscapular artery,arterial
+Right subscapular vein,venous
+Right superficial palmar arterial arch,arterial
+Right superficial palmar venous arch,venous
+Right suprascapular vein,venous
+Right suprascapular artery,arterial
+Trunk of right thoraco-acromial artery,arterial
+Right thoracodorsal artery,arterial
+Right thoracodorsal vein,venous
+Right thyrocervical trunk,arterial
+Right superficial cervical artery,arterial
+Right transverse cervical artery,arterial
+Right ulnar artery,arterial
+Right anterior ulnar recurrent artery,arterial
+Right ulnar vein,venous
+Left medial brachial vein,venous
+Left arteria radialis indicis,arterial
+Left first common palmar digital artery,arterial
+Left second common palmar digital artery,arterial
+Left third common palmar digital artery,arterial
+Set of dorsal digital arteries,arterial
+Proper palmar digital vein of left little finger,venous
+Left palmar metacarpal vein,venous
+Proper palmar digital vein of left little finger,venous
+Common palmar digital vein,venous
+Left palmar metacarpal vein,venous
+Proper palmar digital vein of left index finger,venous
+Proper palmar digital vein of left index finger,venous
+Proper palmar digital vein of left middle finger,venous
+Proper palmar digital vein of left ring finger,venous
+Proper palmar digital vein of left ring finger,venous
+Proper palmar digital vein of left little finger,venous
+Pectoral branch of left thoraco-acromial artery,arterial
+Middle collateral branch of left deep brachial artery,arterial
+Left arteria radialis indicis,arterial
+Medial proper palmar digital artery of left index finger,arterial
+Lateral proper palmar digital artery of left middle finger,arterial
+Lateral proper palmar digital artery of left ring finger,arterial
+Lateral proper palmar digital artery of left little finger,arterial
+Left fourth common palmar digital artery,arterial
+Left arteria princeps pollicis,arterial
+Left arteria princeps pollicis,arterial
+Proper palmar digital vein of left middle finger,venous
+Right medial brachial vein,venous
+Right arteria radialis indicis,arterial
+Right first common palmar digital artery,arterial
+Right second common palmar digital artery,arterial
+Right third common palmar digital artery,arterial
+Set of dorsal digital arteries,arterial
+Set of dorsal metacarpal arteries,arterial
+Set of dorsal metacarpal arteries,arterial
+Proper palmar digital vein of right little finger,venous
+Right palmar metacarpal vein,venous
+Proper palmar digital vein of right little finger,venous
+Common palmar digital vein,venous
+Right palmar metacarpal vein,venous
+Proper palmar digital vein of right index finger,venous
+Proper palmar digital vein of right index finger,venous
+Proper palmar digital vein of right middle finger,venous
+Proper palmar digital vein of right middle finger,venous
+Proper palmar digital vein of right ring finger,venous
+Proper palmar digital vein of right ring finger,venous
+Proper palmar digital vein of right little finger,venous
+Pectoral branch of right thoraco-acromial artery,arterial
+Middle collateral branch of right deep brachial artery,arterial
+Right arteria radialis indicis,arterial
+Medial proper palmar digital artery of right index finger,arterial
+Lateral proper palmar digital artery of right middle finger,arterial
+Lateral proper palmar digital artery of right ring finger,arterial
+Medial proper palmar digital artery of right middle finger,arterial
+Lateral proper palmar digital artery of right little finger,arterial
+Medial proper palmar digital artery of right ring finger,arterial
+Right fourth common palmar digital artery,arterial
+Right arteria princeps pollicis,arterial
+Right arteria princeps pollicis,arterial
+Right superior ulnar collateral artery,arterial
+Left superior ulnar collateral artery,arterial
+Caudate lobe branch of right hepatic artery,arterial
+Right lobe branch of right hepatic artery,arterial
+Left portal vein,venous
+Right portal vein,venous
+Hepatovenous segment VII,venous
+Middle hepatic vein,venous
+Left hepatic vein,venous
+Right hepatic vein,venous
+Left anterior cusp of pulmonary valve,cardiac
+Anterolateral head of lateral papillary muscle of left ventricle,muscular
+Anterior papillary muscle of right ventricle,muscular
+Anterior leaflet of mitral valve,cardiac
+Anterior leaflet of tricuspid valve,cardiac
+Cavity of left ventricle,cardiac
+Cavity of right ventricle,cardiac
+Cavity of right atrium,cardiac
+Cavity of left atrium,cardiac
+Left posterior cusp of aortic valve,cardiac
+Posterior cusp of pulmonary valve,cardiac
+Wall of ventricle,cardiac
+Lateral papillary muscle of left ventricle,muscular
+Posterior papillary muscle of right ventricle,muscular
+Right posterior cusp of aortic valve,cardiac
+Posterior leaflet of mitral valve,cardiac
+Posterior leaflet of tricuspid valve,cardiac
+Right anterior cusp of pulmonary valve,cardiac
+Anterior cusp of aortic valve,cardiac
+Septal leaflet of tricuspid valve,cardiac
+Septal papillary muscle of right ventricle,muscular
+Wall of left atrium,cardiac
+Wall of right atrium,cardiac
+Cricoid cartilage,skeletal
+Inferior lingular bronchial tree,respiratory
+Left medial basal segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left lateral basal segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left posterior segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Lateral segmental bronchial tree,respiratory
+Left main bronchus,respiratory
+Medial segmental bronchial tree,respiratory
+Right anterior basal segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right lateral basal segmental bronchial tree,respiratory
+Right medial basal segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left apical segmental bronchial tree,respiratory
+Left posterior segmental bronchial tree,respiratory
+Left posterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Left anterior segmental bronchial tree,respiratory
+Inferior lingular bronchial tree,respiratory
+Superior lingular bronchial tree,respiratory
+Superior lingular bronchial tree,respiratory
+Superior lingular bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Left superior segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Right medial basal segmental bronchial tree,respiratory
+Right posterior basal segmental bronchial tree,respiratory
+Right lateral basal segmental bronchial tree,respiratory
+Right lateral basal segmental bronchial tree,respiratory
+Right lateral basal segmental bronchial tree,respiratory
+Right anterior basal segmental bronchial tree,respiratory
+Right anterior basal segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Right superior segmental bronchial tree,respiratory
+Lateral segmental bronchial tree,respiratory
+Lateral segmental bronchial tree,respiratory
+Lateral segmental bronchial tree,respiratory
+Medial segmental bronchial tree,respiratory
+Medial segmental bronchial tree,respiratory
+Medial segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right anterior segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right posterior segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Right apical segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left posterior basal segmental bronchial tree,respiratory
+Left lateral basal segmental bronchial tree,respiratory
+Left lateral basal segmental bronchial tree,respiratory
+Left lateral basal segmental bronchial tree,respiratory
+Left anterior basal segmental bronchial tree,respiratory
+Left anterior basal segmental bronchial tree,respiratory
+Left medial basal segmental bronchial tree,respiratory
+Left anterior basal segmental bronchial tree,respiratory
+Right main bronchus proper,respiratory
+Superior lingular bronchial tree,respiratory
+Trachea,respiratory
+Left coccygeus,muscular
+External anal sphincter,muscular
+Left iliococcygeus,muscular
+Left pubococcygeus,muscular
+Left puborectalis,muscular
+Right coccygeus,muscular
+External anal sphincter,muscular
+Right iliococcygeus,muscular
+Right pubococcygeus,muscular
+Right puborectalis,muscular
+Tendinous arch of levator ani,connective
+Tendinous arch of levator ani,connective
+Right major alar cartilage,skeletal
+Left major alar cartilage,skeletal
+Left lateral nasal cartilage,respiratory
+Septal nasal cartilage,respiratory
+Right lateral nasal cartilage,respiratory
+Spleen,lymphatic
+Splenic artery,arterial
+Esophagus,digestive
+Stomach,digestive
+Appendix,digestive
+Ascending colon,digestive
+Descending colon,digestive
+Taenia libera,digestive
+Taenia mesocolica,digestive
+Taenia omentalis,digestive
+Rectum,digestive
+Transverse colon,digestive
+Duodenum,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Middle part of ileum,digestive
+Proximal part of ileum,digestive
+Middle part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Proximal part of ileum,digestive
+Distal part of ileum,digestive
+Distal part of ileum,digestive
+Ileocecal junction,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Proximal part of ileum,digestive
+Proximal part of jejunum,digestive
+Middle part of jejunum,digestive
+Middle part of jejunum,digestive
+Middle part of jejunum,digestive
+Middle part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Distal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Proximal part of jejunum,digestive
+Middle part of jejunum,digestive
+Parenchyma of pancreas,digestive
+Pancreatic duct tree,digestive
+Trunk of anterior interventricular branch of left coronary artery,arterial
+First right anterior branch of anterior interventricular branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Third right anterior branch of anterior interventricular branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Conus branch of anterior interventricular branch of left coronary artery,arterial
+Conus branch of anterior interventricular branch of left coronary artery,arterial
+First right anterior branch of anterior interventricular branch of left coronary artery,arterial
+Second right anterior branch of anterior interventricular branch of left coronary artery,arterial
+Third right anterior branch of anterior interventricular branch of left coronary artery,arterial
+Diagonal branch of anterior descending branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Circumflex branch of left coronary artery,arterial
+Coronary sinus,venous
+Great cardiac vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Anterior interventricular vein,venous
+Marginal branch of right coronary artery,arterial
+Marginal branch of right coronary artery,arterial
+Right conus artery,arterial
+First anterior ventricular branch of right coronary artery,arterial
+Marginal branch of right coronary artery,arterial
+First anterior ventricular branch of right coronary artery,arterial
+Marginal branch of right coronary artery,arterial
+Marginal branch of right coronary artery,arterial
+Right conus artery,arterial
+First anterior ventricular branch of right coronary artery,arterial
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Middle cardiac vein,venous
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior interventricular branch of right coronary artery,arterial
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Left marginal vein,venous
+Left marginal vein,venous
+Left marginal vein,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+Posterior vein of left ventricle,venous
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+First posterior ventricular branch of right coronary artery,arterial
+Trunk of right coronary artery,arterial
+Small cardiac vein,venous
+Anterior cardiac vein,venous
+Right marginal vein,venous
+Right marginal vein,venous
+Right marginal vein,venous
+Anterior cardiac vein,venous
+Small cardiac vein,venous
+Septal branch of anterior interventricular artery,arterial
+Septal branch of anterior interventricular artery,arterial
+Septal branch of anterior interventricular artery,arterial
+First septal branch of right posterior interventricular artery,arterial
+Second septal branch of right posterior interventricular artery,arterial
+Trunk of left coronary artery,arterial
+Left genioglossus,muscular
+Left hyoglossus,muscular
+Left inferior pharyngeal constrictor,respiratory
+Left levator veli palatini,muscular
+Right middle pharyngeal constrictor,respiratory
+Left palatopharyngeus,respiratory
+Left pterygomandibular raphe,connective
+Left salpingopharyngeus,respiratory
+Left stylopharyngeus,respiratory
+Left superior pharyngeal constrictor,respiratory
+Left tensor veli palatini,muscular
+Pharyngeal raphe,connective
+Right genioglossus,muscular
+Right hyoglossus,muscular
+Right inferior pharyngeal constrictor,respiratory
+Right levator veli palatini,muscular
+Left middle pharyngeal constrictor,respiratory
+Right palatopharyngeus,respiratory
+Right pterygomandibular raphe,connective
+Right salpingopharyngeus,respiratory
+Right stylopharyngeus,respiratory
+Right superior pharyngeal constrictor,respiratory
+Right tensor veli palatini,muscular
+Tongue,digestive
+Uvular muscle,muscular
+Left stylohyoid ligament,connective
+Right stylohyoid ligament,connective
+Left sublingual gland,digestive
+Left submandibular gland,digestive
+Right sublingual gland,digestive
+Right submandibular gland,digestive
+Cricoid cartilage,skeletal
+Epiglottis,respiratory
+Hyo-epiglottic ligament,connective
+Hyoid bone,skeletal
+Left cuneiform cartilage,skeletal
+Left aryepiglotticus,muscular
+Left arytenoid cartilage,skeletal
+Left corniculate cartilage,skeletal
+Left conus elasticus,connective
+Left lateral crico-arytenoid,muscular
+Left lateral thyrohyoid ligament,connective
+Left oblique arytenoid,muscular
+Oblique part of left cricothyroid,muscular
+Left posterior crico-arytenoid,muscular
+Straight part of left cricothyroid,muscular
+Left thyro-arytenoid,muscular
+Left thyro-arytenoid,muscular
+Left thyrohyoid membrane,connective
+Left vocal ligament,connective
+Left vocalis,muscular
+Median cricothyroid ligament,connective
+Median thyrohyoid ligament,connective
+Right aryepiglotticus,muscular
+Right arytenoid cartilage,skeletal
+Right corniculate cartilage,skeletal
+Right conus elasticus,connective
+Right cuneiform cartilage,skeletal
+Right lateral crico-arytenoid,muscular
+Right lateral thyrohyoid ligament,connective
+Right oblique arytenoid,muscular
+Oblique part of right cricothyroid,muscular
+Right posterior crico-arytenoid,muscular
+Straight part of right cricothyroid,muscular
+Right thyro-arytenoid,muscular
+Right thyro-arytenoid,muscular
+Right thyrohyoid membrane,connective
+Right vocal ligament,connective
+Right vocalis,muscular
+Thyro-epiglottic ligament,connective
+Thyroid cartilage,skeletal
+Transverse arytenoid,muscular
+Skin,integumentary
+External ear,sensory
+Eyebrow,integumentary
+Hair of head,integumentary
+Lip,integumentary
+Pubic hair,integumentary
+Caudate lobe of liver,digestive
+Gallbladder,digestive
+Hepatovenous segment II,venous
+Hepatovenous segment III,venous
+Hepatovenous segment IV,venous
+Hepatovenous segment V,venous
+Hepatovenous segment VI,venous
+Hepatovenous segment VIII,venous
+Hepatovenous segment VIII,venous
+Left posterior basal segmental artery,arterial
+Left lateral basal segmental artery,arterial
+Left anterior basal segmental artery,arterial
+Left medial basal segmental artery,arterial
+Left medial basal segmental artery,arterial
+Left anterior basal segmental artery,arterial
+Left anterior basal segmental artery,arterial
+Left superior segmental artery,arterial
+Left superior segmental artery,arterial
+Left superior segmental artery,arterial
+Left superior segmental artery,arterial
+Left posterior basal segmental artery,arterial
+Left superior segmental artery,arterial
+Left superior segmental artery,arterial
+Left superior segmental artery,arterial
+Inferior lingular artery,arterial
+Inferior lingular artery,arterial
+Superior lingular artery,arterial
+Superior lingular artery,arterial
+Superior lingular artery,arterial
+Superior lingular artery,arterial
+Left anterior segmental artery,arterial
+Left posterior basal segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left anterior segmental artery,arterial
+Left posterior segmental artery,arterial
+Left posterior segmental artery,arterial
+Left posterior segmental artery,arterial
+Left posterior basal segmental artery,arterial
+Left apical segmental artery,arterial
+Left apical segmental artery,arterial
+Left apical segmental artery,arterial
+Left apical segmental artery,arterial
+Left posterior basal segmental artery,arterial
+Left posterior basal segmental artery,arterial
+Left lateral basal segmental artery,arterial
+Left lateral basal segmental artery,arterial
+Left lateral basal segmental artery,arterial
+Left pulmonary artery,arterial
+Left superior pulmonary vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left anterior segmental vein,venous
+Left anterior segmental vein,venous
+Left anterior segmental vein,venous
+Left superior pulmonary vein,venous
+Inferior lingular vein,venous
+Inferior lingular vein,venous
+Left apical segmental vein,venous
+Superior lingular vein,venous
+Superior lingular vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left posterior segmental vein,venous
+Left inferior pulmonary vein,venous
+Left posterior basal segmental vein,venous
+Left posterior basal segmental vein,venous
+Left apical segmental vein,venous
+Left posterior basal segmental vein,venous
+Left posterior basal segmental vein,venous
+Left inferior pulmonary vein,venous
+Left lateral basal segmental vein,venous
+Left lateral basal segmental vein,venous
+Left lateral basal segmental vein,venous
+Left lateral basal segmental vein,venous
+Left inferior pulmonary vein,venous
+Left anterior basal segmental vein,venous
+Left anterior basal segmental vein,venous
+Left apical segmental vein,venous
+Left anterior basal segmental vein,venous
+Left anterior basal segmental vein,venous
+Left apical segmental vein,venous
+Left apical segmental vein,venous
+Left apical segmental vein,venous
+Left apical segmental vein,venous
+Left posterior segmental vein,venous
+Pulmonary trunk,arterial
+Apical part of right apical segmental artery,arterial
+Apical part of right posterior segmental artery,arterial
+Apical part of right posterior segmental artery,arterial
+Posterior part of right posterior segmental artery,arterial
+Posterior part of right posterior segmental artery,arterial
+Posterior part of right posterior segmental artery,arterial
+Right upper lobar artery,arterial
+Posterior branch of right anterior segmental artery,arterial
+Anterior branch of right anterior segmental artery,arterial
+Anterior branch of right anterior segmental artery,arterial
+Anterior branch of right anterior segmental artery,arterial
+Anterior part of right apical segmental artery,arterial
+Anterior branch of right anterior segmental artery,arterial
+Posterior branch of right anterior segmental artery,arterial
+Posterior branch of right anterior segmental artery,arterial
+Anterior branch of lateral segmental artery,arterial
+Posterior branch of lateral segmental artery,arterial
+Posterior branch of lateral segmental artery,arterial
+Anterior branch of lateral segmental artery,arterial
+Superior branch of medial segmental artery,arterial
+Inferior branch of medial segmental artery,arterial
+Inferior branch of medial segmental artery,arterial
+Anterior part of right apical segmental artery,arterial
+Superior branch of medial segmental artery,arterial
+Lateral branch of right superior segmental artery,arterial
+Lateral branch of right superior segmental artery,arterial
+Lateral branch of right superior segmental artery,arterial
+Medial branch of right superior segmental artery,arterial
+Medial branch of right superior segmental artery,arterial
+Medial branch of right superior segmental artery,arterial
+Superior branch of right superior segmental artery,arterial
+Superior branch of right superior segmental artery,arterial
+Superior branch of right superior segmental artery,arterial
+Anterior part of right apical segmental artery,arterial
+Lateral branch of right anterior basal segmental artery,arterial
+Basal branch of right anterior basal segmental artery,arterial
+Basal branch of right anterior basal segmental artery,arterial
+Lateral branch of right lateral basal segmental artery,arterial
+Lateral branch of right lateral basal segmental artery,arterial
+Lateral branch of right lateral basal segmental artery,arterial
+Lateral branch of right lateral basal segmental artery,arterial
+Mediobasal branch of right posterior basal segmental artery,arterial
+Accessory subsuperior branch of right posterior basal segmental artery,arterial
+Accessory subsuperior branch of right posterior basal segmental artery,arterial
+Anterior part of right apical segmental artery,arterial
+Mediobasal branch of right posterior basal segmental artery,arterial
+Laterobasal branch of right posterior basal segmental artery,arterial
+Laterobasal branch of right posterior basal segmental artery,arterial
+Apical part of right apical segmental artery,arterial
+Apical part of right apical segmental artery,arterial
+Apical part of right apical segmental artery,arterial
+Apical part of right posterior segmental artery,arterial
+Right pulmonary artery,arterial
+Right superior pulmonary vein,venous
+Inferior part of right anterior segmental vein,venous
+Right posterior segmental vein,venous
+Right posterior segmental vein,venous
+Right posterior segmental vein,venous
+Right posterior segmental vein,venous
+Right posterior segmental vein,venous
+Superior part of right anterior segmental vein,venous
+Right anterior segmental vein,venous
+Right anterior segmental vein,venous
+Superior part of medial segmental vein,venous
+Trunk of right apical segmental vein,venous
+Inferior part of medial segmental vein,venous
+Inferior part of medial segmental vein,venous
+Anterior part of lateral segmental vein,venous
+Anterior part of lateral segmental vein,venous
+Anterior part of lateral segmental vein,venous
+Posterior part of lateral segmental vein,venous
+Posterior part of lateral segmental vein,venous
+Posterior part of lateral segmental vein,venous
+Right inferior pulmonary vein,venous
+Right posterior basal segmental vein,venous
+Anterior part of right apical segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right anterior basal segmental vein,venous
+Right superior segmental vein,venous
+Right superior segmental vein,venous
+Right superior segmental vein,venous
+Anterior part of right apical segmental vein,venous
+Right medial basal segmental vein,venous
+Right medial basal segmental vein,venous
+Right anterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right posterior basal segmental vein,venous
+Right lateral basal segmental vein,venous
+Right lateral basal segmental vein,venous
+Right lateral basal segmental vein,venous
+Right lateral basal segmental vein,venous
+Right superior segmental vein,venous
+Apical part of right apical segmental vein,venous
+Right superior segmental vein,venous
+Right superior segmental vein,venous
+Apical part of right apical segmental vein,venous
+Apical part of right apical segmental vein,venous
+Right posterior segmental vein,venous
+Right posterior segmental vein,venous
+Anterior superior tributary of right hepatic biliary tree,digestive
+Anterior inferior tributary of right hepatic biliary tree,digestive
+Anterior superior segmental branch of right portal vein,venous
+Anterior inferior segmental branch of right portal vein,venous
+Anterior inferior segmental hepatic artery,arterial
+Anterior superior segmental hepatic artery,arterial
+Caudate lobe branch of left hepatic artery,arterial
+Common hepatic artery,arterial
+Common hepatic duct,digestive
+Cystic duct,digestive
+Hepatic artery proper,arterial
+Pre-hepatic portal vein,venous
+Anterior inferior segmental tributary of middle hepatic vein,venous
+Medial inferior segmental tributary of middle hepatic vein,venous
+Medial inferior segmental tributary of middle hepatic vein,venous
+Anterior inferior segmental tributary of middle hepatic vein,venous
+Lateral superior tributary of left hepatic biliary tree,digestive
+Lateral inferior tributary of left hepatic biliary tree,digestive
+Lateral superior tributary of left hepatic biliary tree,digestive
+Lateral superior segmental hepatic artery,arterial
+Lateral inferior segmental hepatic artery,arterial
+Lateral superior segmental hepatic artery,arterial
+Left duct of caudate lobe of liver,digestive
+Trunk of left hepatic artery,arterial
+Left hepatic duct,digestive
+Lateral inferior segmental tributary of left hepatic vein,venous
+Lateral superior segmental tributary of left hepatic vein,venous
+Lateral inferior segmental tributary of left hepatic vein,venous
+Lateral inferior segmental tributary of left hepatic vein,venous
+Medial superior segmental tributary of left hepatic vein,venous
+Trunk of left portal vein,venous
+Medial inferior tributary of left hepatic biliary tree,digestive
+Medial superior tributary of left hepatic biliary tree,digestive
+Medial superior tributary of left hepatic biliary tree,digestive
+Medial inferior segmental hepatic artery,arterial
+Medial superior segmental hepatic artery,arterial
+Posterior inferior tributary of right hepatic biliary tree,digestive
+Posterior superior tributary of right hepatic biliary tree,digestive
+Posterior superior tributary of right hepatic biliary tree,digestive
+Posterior inferior segmental branch of right portal vein,venous
+Posterior superior segmental branch of right portal vein,venous
+Posterior superior segmental branch of right portal vein,venous
+Posterior inferior segmental hepatic artery,arterial
+Posterior superior segmental hepatic artery,arterial
+Posterior superior segmental hepatic artery,arterial
+Trunk of right hepatic artery,arterial
+Posterior inferior segmental tributary of right hepatic vein,venous
+Posterior superior segmental tributary of right hepatic vein,venous
+Posterior inferior segmental tributary of right hepatic vein,venous
+Anterior superior segmental tributary of right hepatic vein,venous
+Trunk of right portal vein,venous
+Right hepatic duct,digestive
+Caudate lobe branch of left portal vein,venous
+Lateral inferior segmental branch of left portal vein,venous
+Lateral superior segmental branch of left portal vein,venous
+Medial superior segmental branch of left portal vein,venous
+Medial inferior segmental branch of left portal vein,venous
+Left adrenal gland,endocrine
+Right adrenal gland,endocrine
+Diaphragm,muscular
+Corpus cavernosum of penis,reproductive
+Corpus spongiosum of penis,reproductive
+Glans penis,reproductive
+Left deferent duct,reproductive
+Left epididymis,reproductive
+Left seminal vesicle,reproductive
+Left testis,reproductive
+Prostate,reproductive
+Right deferent duct,reproductive
+Right epididymis,reproductive
+Right testis,reproductive
+Right seminal vesicle,reproductive
+Left ureter,urinary
+Left kidney,urinary
+Right ureter,urinary
+Right kidney,urinary
+Urethra,urinary
+Urinary bladder,urinary
+Left lobe of thymus,lymphatic
+Right lobe of thymus,lymphatic
+Right hip bone,skeletal
+Xiphoid process,skeletal
+Tenth thoracic vertebra,skeletal
+Eleventh thoracic vertebra,skeletal
+Twelfth thoracic vertebra,skeletal
+First lumbar vertebra,skeletal
+First thoracic vertebra,skeletal
+Second lumbar vertebra,skeletal
+Second thoracic vertebra,skeletal
+Third cervical vertebra,skeletal
+Third lumbar vertebra,skeletal
+Third thoracic vertebra,skeletal
+Fourth cervical vertebra,skeletal
+Fourth lumbar vertebra,skeletal
+Fourth thoracic vertebra,skeletal
+Fifth cervical vertebra,skeletal
+Fifth lumbar vertebra,skeletal
+Fifth thoracic vertebra,skeletal
+Sixth cervical vertebra,skeletal
+Sixth thoracic vertebra,skeletal
+Seventh cervical vertebra,skeletal
+Seventh thoracic vertebra,skeletal
+Eighth thoracic vertebra,skeletal
+Ninth thoracic vertebra,skeletal
+Atlas,skeletal
+Axis,skeletal
+Body of sternum,skeletal
+Distal phalanx of left second toe,skeletal
+Distal phalanx of left third toe,skeletal
+Distal phalanx of left fourth toe,skeletal
+Distal phalanx of left big toe,skeletal
+Distal phalanx of left index finger,skeletal
+Distal phalanx of left little finger,skeletal
+Distal phalanx of left little toe,skeletal
+Distal phalanx of left middle finger,skeletal
+Distal phalanx of left ring finger,skeletal
+Distal phalanx of left thumb,skeletal
+Distal phalanx of right second toe,skeletal
+Distal phalanx of right third toe,skeletal
+Distal phalanx of right fourth toe,skeletal
+Distal phalanx of right big toe,skeletal
+Distal phalanx of right index finger,skeletal
+Distal phalanx of right little finger,skeletal
+Distal phalanx of right little toe,skeletal
+Distal phalanx of right middle finger,skeletal
+Distal phalanx of right ring finger,skeletal
+Distal phalanx of right thumb,skeletal
+Ethmoid,skeletal
+Frontal bone,skeletal
+Hyoid bone,skeletal
+Intervertebral disk of axis,skeletal
+Intervertebral disk of fourth thoracic vertebra,skeletal
+Intervertebral disk of fifth thoracic vertebra,skeletal
+Intervertebral disk of sixth thoracic vertebra,skeletal
+Intervertebral disk of seventh thoracic vertebra,skeletal
+Intervertebral disk of eighth thoracic vertebra,skeletal
+Intervertebral disk of ninth thoracic vertebra,skeletal
+Intervertebral disk of tenth thoracic vertebra,skeletal
+Intervertebral disk of eleventh thoracic vertebra,skeletal
+Intervertebral disk,skeletal
+Intervertebral disk of first lumbar vertebra,skeletal
+Intervertebral disk of third cervical vertebra,skeletal
+Intervertebral disk of second lumbar vertebra,skeletal
+Intervertebral disk of third lumbar vertebra,skeletal
+Intervertebral disk of fourth lumbar vertebra,skeletal
+Intervertebral disk of fifth lumbar vertebra,skeletal
+Intervertebral disk of fourth cervical vertebra,skeletal
+Intervertebral disk of fifth cervical vertebra,skeletal
+Intervertebral disk of sixth cervical vertebra,skeletal
+Intervertebral disk of seventh cervical vertebra,skeletal
+Intervertebral disk of first thoracic vertebra,skeletal
+Intervertebral disk of second thoracic vertebra,skeletal
+Intervertebral disk of third thoracic vertebra,skeletal
+Left tenth rib,skeletal
+Left eleventh rib,skeletal
+Left twelfth rib,skeletal
+Left first rib,skeletal
+Left second rib,skeletal
+Left third rib,skeletal
+Left fourth rib,skeletal
+Left fifth rib,skeletal
+Left sixth rib,skeletal
+Left seventh rib,skeletal
+Left eighth rib,skeletal
+Left ninth rib,skeletal
+Left clavicle,skeletal
+Left first costal cartilage,skeletal
+Left first metacarpal bone,skeletal
+Left first metatarsal bone,skeletal
+Left second costal cartilage,skeletal
+Left second metacarpal bone,skeletal
+Left second metatarsal bone,skeletal
+Left third costal cartilage,skeletal
+Left third metacarpal bone,skeletal
+Left third metatarsal bone,skeletal
+Left fourth costal cartilage,skeletal
+Left fourth metacarpal bone,skeletal
+Left fourth metatarsal bone,skeletal
+Left fifth costal cartilage,skeletal
+Left fifth metacarpal bone,skeletal
+Left fifth metatarsal bone,skeletal
+Left sixth costal cartilage,skeletal
+Left seventh costal cartilage,skeletal
+Left calcaneus,skeletal
+Left capitate,skeletal
+Left cuboid bone,skeletal
+Left femur,skeletal
+Left fibula,skeletal
+Left hamate,skeletal
+Left humerus,skeletal
+Left inferior nasal concha,respiratory
+Left intermediate cuneiform bone,skeletal
+Left lacrimal bone,sensory
+Sesamoid bone of left foot,skeletal
+Left lateral cuneiform bone,skeletal
+Left lunate,skeletal
+Left maxilla,skeletal
+Sesamoid bone of left foot,skeletal
+Left medial cuneiform bone,skeletal
+Left nasal bone,skeletal
+Left palatine bone,skeletal
+Left parietal bone,skeletal
+Left patella,skeletal
+Left pisiform,skeletal
+Left radius,skeletal
+Left scaphoid,skeletal
+Left scapula,skeletal
+Left talus,skeletal
+Left temporal bone,skeletal
+Left tibia,skeletal
+Left trapezium,skeletal
+Left trapezoid,skeletal
+Left triquetral,skeletal
+Left ulna,skeletal
+Left zygomatic bone,skeletal
+Left hip bone,skeletal
+Mandible,skeletal
+Manubrium,skeletal
+Middle phalanx of left ring finger,skeletal
+Middle phalanx of right ring finger,skeletal
+Middle phalanx of left second toe,skeletal
+Middle phalanx of left third toe,skeletal
+Middle phalanx of left fourth toe,skeletal
+Middle phalanx of left index finger,skeletal
+Middle phalanx of left little finger,skeletal
+Middle phalanx of left little toe,skeletal
+Middle phalanx of left middle finger,skeletal
+Middle phalanx of right second toe,skeletal
+Middle phalanx of right third toe,skeletal
+Middle phalanx of right fourth toe,skeletal
+Middle phalanx of right index finger,skeletal
+Middle phalanx of right little finger,skeletal
+Middle phalanx of right little toe,skeletal
+Middle phalanx of right middle finger,skeletal
+Navicular bone of left foot,skeletal
+Navicular bone of right foot,skeletal
+Occipital bone,skeletal
+Proximal phalanx of right big toe,skeletal
+Proximal phalanx of left third toe,skeletal
+Proximal phalanx of left fourth toe,skeletal
+Proximal phalanx of left index finger,skeletal
+Proximal phalanx of left little finger,skeletal
+Proximal phalanx of left little toe,skeletal
+Proximal phalanx of left middle finger,skeletal
+Proximal phalanx of left ring finger,skeletal
+Proximal phalanx of left thumb,skeletal
+Proximal phalanx of right second toe,skeletal
+Proximal phalanx of right third toe,skeletal
+Proximal phalanx of right fourth toe,skeletal
+Proximal phalanx of right index finger,skeletal
+Proximal phalanx of right little finger,skeletal
+Proximal phalanx of right little toe,skeletal
+Proximal phalanx of right middle finger,skeletal
+Proximal phalanx of right ring finger,skeletal
+Proximal phalanx of right thumb,skeletal
+Proximal phalanx of left second toe,skeletal
+Proximal phalanx of left big toe,skeletal
+Right tenth rib,skeletal
+Right eleventh rib,skeletal
+Right twelfth rib,skeletal
+Right first costal cartilage,skeletal
+Right first rib,skeletal
+Right second costal cartilage,skeletal
+Right second rib,skeletal
+Right third costal cartilage,skeletal
+Right third rib,skeletal
+Right fourth costal cartilage,skeletal
+Right fourth rib,skeletal
+Right fifth costal cartilage,skeletal
+Right fifth rib,skeletal
+Right sixth costal cartilage,skeletal
+Right sixth rib,skeletal
+Right seventh costal cartilage,skeletal
+Right seventh rib,skeletal
+Right eighth rib,skeletal
+Right ninth rib,skeletal
+Right radius,skeletal
+Right first metacarpal bone,skeletal
+Right first metatarsal bone,skeletal
+Right second metacarpal bone,skeletal
+Right second metatarsal bone,skeletal
+Right third metacarpal bone,skeletal
+Right third metatarsal bone,skeletal
+Right fourth metacarpal bone,skeletal
+Right fourth metatarsal bone,skeletal
+Right fifth metacarpal bone,skeletal
+Right fifth metatarsal bone,skeletal
+Right calcaneus,skeletal
+Right capitate,skeletal
+Right clavicle,skeletal
+Right cuboid bone,skeletal
+Right femur,skeletal
+Right fibula,skeletal
+Right hamate,skeletal
+Right humerus,skeletal
+Right inferior nasal concha,respiratory
+Right intermediate cuneiform bone,skeletal
+Right lacrimal bone,sensory
+Sesamoid bone of right foot,skeletal
+Right lateral cuneiform bone,skeletal
+Right lunate,skeletal
+Right maxilla,skeletal
+Sesamoid bone of right foot,skeletal
+Right medial cuneiform bone,skeletal
+Right nasal bone,skeletal
+Right palatine bone,skeletal
+Right parietal bone,skeletal
+Right patella,skeletal
+Right pisiform,skeletal
+Right scaphoid,skeletal
+Right scapula,skeletal
+Right talus,skeletal
+Right temporal bone,skeletal
+Right tibia,skeletal
+Right trapezium,skeletal
+Right trapezoid,skeletal
+Right triquetral,skeletal
+Right ulna,skeletal
+Right zygomatic bone,skeletal
+Sacrum,skeletal
+Sphenoid bone,skeletal
+Vomer,skeletal
+Mesentery of small intestine,digestive
+Mesoappendix,digestive
+Transverse mesocolon,digestive
+Ascending branch of left colic artery,arterial
+Left colic vein,venous
+Anterior inferior pancreaticoduodenal artery,arterial
+Anterior cecal artery,arterial
+Anterior superior pancreaticoduodenal artery,arterial
+Appendicular artery,arterial
+Arch of aorta,arterial
+Ascending aorta,arterial
+Ascending branch of inferior branch of ileocolic artery,arterial
+Ileocolic vein,venous
+Azygos vein,venous
+Brachiocephalic artery,arterial
+Bronchial branch of arch of aorta,arterial
+Caudal pancreatic artery,arterial
+Splenic artery,arterial
+Celiac trunk,arterial
+Left superficial dorsal vein of penis,venous
+Descending aorta,arterial
+Descending branch of left colic artery,arterial
+Left colic vein,venous
+Dorsal pancreatic artery,arterial
+Set of oesophageal branches of thoracic aorta,arterial
+Trunk of gastroduodenal artery,arterial
+Great pancreatic artery,arterial
+Hemiazygos vein,venous
+Ileal artery,arterial
+Ileal vein,venous
+Ileocolic artery,arterial
+Ileocolic vein,venous
+Inferior vena cava,venous
+Inferior mesenteric artery,arterial
+Inferior mesenteric vein,venous
+Inferior pancreatic artery,arterial
+Inferior pancreaticoduodenal artery,arterial
+Inferior phrenic vein,venous
+Inferior phrenic vein,venous
+Inferior phrenic vein,venous
+Inferior phrenic vein,venous
+Inferior phrenic vein,venous
+Inferior phrenic vein,venous
+Anterior division of left renal artery,arterial
+Anterior division of left renal artery,arterial
+Anterior division of left renal artery,arterial
+Anterior division of left renal artery,arterial
+Anterior division of left renal artery,arterial
+Anterior division of left renal artery,arterial
+Left common iliac artery,arterial
+Left common iliac vein,venous
+Left external iliac artery,arterial
+Left inferior suprarenal artery,arterial
+Left internal iliac artery,arterial
+Left internal iliac vein,venous
+Left internal iliac vein,venous
+Left internal iliac vein,venous
+Left middle suprarenal artery,arterial
+Posterior division of left renal artery,arterial
+Posterior division of left renal artery,arterial
+Posterior division of left renal artery,arterial
+Trunk of left renal artery,arterial
+Left renal vein,venous
+Left renal vein,venous
+Left subclavian artery,arterial
+Left suprarenal vein,venous
+Ureteric segment of left renal artery,arterial
+Left brachiocephalic vein,venous
+Left common carotid artery,arterial
+Left external iliac vein,venous
+Left internal jugular vein,venous
+Left subclavian vein,venous
+Left ascending lumbar vein,venous
+Left colic artery,arterial
+Left colic vein,venous
+Left dorsal artery of penis,arterial
+Left dorsal artery of penis,arterial
+Left gastric artery,arterial
+Left gastric vein,venous
+Left gastro-epiploic artery,arterial
+Left gastroepiploic vein,venous
+Left iliolumbar vein,venous
+Left inferior epigastric artery,arterial
+Left inferior epigastric vein,venous
+Left inferior gluteal vein,venous
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left inferior phrenic artery,arterial
+Left external iliac vein,venous
+Left external iliac vein,venous
+Left external iliac vein,venous
+Left internal pudendal vein,venous
+Left lateral sacral vein,venous
+Left obturator vein,venous
+Left superficial epigastric artery,arterial
+Left superior epigastric vein,venous
+Left superior gluteal vein,venous
+Left testicular artery,arterial
+Left testicular vein,venous
+Marginal artery of colon,arterial
+Median sacral vein,venous
+Middle colic artery,arterial
+Middle colic vein,venous
+Splenic artery,arterial
+Pancreaticoduodenal vein,venous
+Posterior inferior pancreaticoduodenal artery,arterial
+Posterior cecal artery,arterial
+Posterior superior pancreaticoduodenal artery,arterial
+Anterior division of right renal artery,arterial
+Anterior division of right renal artery,arterial
+Anterior division of right renal artery,arterial
+Anterior division of right renal artery,arterial
+Anterior division of right renal artery,arterial
+Anterior division of right renal artery,arterial
+Right common carotid artery,arterial
+Right common iliac artery,arterial
+Right common iliac vein,venous
+Right external iliac artery,arterial
+Right external iliac vein,venous
+Right internal iliac artery,arterial
+Right internal iliac vein,venous
+Right internal iliac vein,venous
+Right internal iliac vein,venous
+Posterior division of right renal artery,arterial
+Posterior division of right renal artery,arterial
+Posterior division of right renal artery,arterial
+Trunk of right renal artery,arterial
+Right renal vein,venous
+Right renal vein,venous
+Right subclavian artery,arterial
+Right suprarenal vein,venous
+Ureteric segment of right renal artery,arterial
+Ureteric segment of right renal artery,arterial
+Right brachiocephalic vein,venous
+Right inferior suprarenal artery,arterial
+Right internal jugular vein,venous
+Right middle suprarenal artery,arterial
+Right subclavian vein,venous
+Right ascending lumbar vein,venous
+Right colic artery,arterial
+Right colic vein,venous
+Right dorsal artery of penis,arterial
+Right dorsal artery of penis,arterial
+Right gastric artery,arterial
+Right gastric vein,venous
+Right gastro-epiploic artery,arterial
+Right gastroepiploic vein,venous
+Right iliolumbar vein,venous
+Right inferior epigastric artery,arterial
+Right inferior epigastric vein,venous
+Right inferior gluteal vein,venous
+Right internal iliac vein,venous
+Right internal iliac vein,venous
+Right internal iliac vein,venous
+Right internal pudendal vein,venous
+Right lateral sacral vein,venous
+Right obturator vein,venous
+Right superficial epigastric artery,arterial
+Right superior epigastric vein,venous
+Right superior gluteal vein,venous
+Right testicular artery,arterial
+Right testicular vein,venous
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Right inferior phrenic artery,arterial
+Lumbar vein,venous
+Lumbar artery,arterial
+Lumbar vein,venous
+Lumbar artery,arterial
+Right superficial dorsal vein of penis,venous
+Sigmoid artery,arterial
+Sigmoid vein,venous
+Splenic artery,arterial
+Splenic vein,venous
+Trunk of superior mesenteric artery,arterial
+Superior vena cava,venous
+Pancreaticoduodenal vein,venous
+Superior mesenteric vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Superior phrenic vein,venous
+Pancreaticoduodenal vein,venous
+Superior rectal artery,arterial
+Superior rectal vein,venous
+Ascending lumbar vein,venous
+Inferior vena cava,venous
