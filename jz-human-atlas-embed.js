@@ -286,23 +286,7 @@ define([
           .css({ width: '100%', height: '100%', position: 'relative', background: 'transparent', boxSizing: 'border-box', overflow: 'hidden' })
           .appendTo($element);
 
-        // Zoom-in animation settings
-        const enableZoomIn = layout.enableZoomIn !== false;
-        const zoomDuration = layout.zoomInDuration || 2.5;
-
-        // Add waiting class that hides until animation starts
-        if (enableZoomIn) {
-          $container.addClass('jz-atlas-waiting');
-
-          // Fallback: if ready event doesn't fire in 5 seconds, show anyway
-          setTimeout(() => {
-            if ($container.hasClass('jz-atlas-waiting')) {
-              console.log('⚠️ Fallback: showing without animation');
-              $container.removeClass('jz-atlas-waiting');
-              $container.css({ transform: 'scale(1)', opacity: '1' });
-            }
-          }, 5000);
-        }
+        // Animation disabled - was animating UI elements too
 
         // Apply border if configured
         if (layout.borderColor && layout.borderWidth > 0) {
@@ -328,17 +312,6 @@ define([
               state.iframeReady = true;
               console.log('✅ Iframe ready');
               updateIframe();
-
-              // Trigger zoom-in animation now that content is ready
-              if (enableZoomIn) {
-                setTimeout(() => {
-                  const $cont = $element.find('> div').first();
-                  $cont.removeClass('jz-atlas-waiting');
-                  $cont.css('animation-duration', zoomDuration + 's');
-                  $cont.addClass('jz-atlas-zoom-in');
-                  console.log('🎬 Zoom animation started');
-                }, 200);
-              }
               break;
 
             case 'applySelection':
