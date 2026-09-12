@@ -28,7 +28,8 @@
       background: transparent; color: #333;
     }
     #container { width: 100%; height: 100%; position: relative; background: transparent; }
-    canvas { background: transparent !important; }
+    #container.awaiting-qlik canvas { opacity: 0; }
+    canvas { background: transparent !important; transition: opacity 0.3s ease; }
     #loading {
       position: absolute; top: 50%; left: 50%;
       transform: translate(-50%, -50%); text-align: center; color: #999;
@@ -117,7 +118,7 @@
   </style>
 </head>
 <body>
-  <div id="container">
+  <div id="container" class="awaiting-qlik">
     <div id="loading">
       <div class="spinner"></div>
       <p>Loading Human Atlas...</p>
@@ -184,8 +185,6 @@
     let qlikSelectedParts = new Set(); // parts currently selected in Qlik
     let meshToQlikName = new Map();   // atlas mesh name -> Qlik part name
     let viewMode = 'ghost';           // 'ghost' = show transparent outline, 'isolate' = hide non-selected
-    let isFirstSelection = true;      // Track if this is the first selection (for animation)
-    let animatingMeshes = new Set();  // Meshes currently animating
 
     const qlikAPI = {
       send: (type, data) => {
@@ -348,21 +347,6 @@
       const maxDim = Math.max(boxSize.x, boxSize.y, boxSize.z);
       camera.position.set(0, 0, maxDim * 1.8);
 
-      // Start all meshes in ghost mode (waiting for Qlik selection)
-      meshes.forEach(mesh => {
-        const isIntegumentary = mesh.userData.system === 'integumentary' || mesh.userData.system === 'body surface';
-        if (isIntegumentary) {
-          mesh.material.opacity = 0.1;
-          mesh.material.transparent = true;
-        } else {
-          mesh.material.opacity = 0.08;
-          mesh.material.transparent = true;
-          mesh.material.depthWrite = false;
-        }
-        // Store original position for animation
-        mesh.userData.originalPosition = mesh.position.clone();
-      });
-
       // Click handler
       const raycaster = new THREE.Raycaster();
       const mouse = new THREE.Vector2();
@@ -420,66 +404,6 @@
           applyHighlights();
         }
       });
-    }
-
-    function animateSelectedParts(selectedMeshes) {
-      if (selectedMeshes.length === 0) return;
-
-      const duration = 1500; // 1.5 seconds
-      const startTime = Date.now();
-
-      // Set initial state: scaled down and offset to top-right
-      selectedMeshes.forEach(mesh => {
-        mesh.userData.animStartPos = mesh.position.clone();
-        mesh.userData.animStartScale = 0.1;
-        mesh.position.x += 0.3;
-        mesh.position.y += 0.3;
-        mesh.scale.setScalar(0.1);
-        mesh.material.opacity = 0;
-        mesh.material.transparent = true;
-        animatingMeshes.add(mesh);
-      });
-
-      function animateFrame() {
-        const elapsed = Date.now() - startTime;
-        const progress = Math.min(elapsed / duration, 1);
-        // Ease out cubic
-        const ease = 1 - Math.pow(1 - progress, 3);
-
-        selectedMeshes.forEach(mesh => {
-          if (!mesh.userData.animStartPos) return;
-
-          // Interpolate position back to original
-          mesh.position.x = mesh.userData.animStartPos.x + 0.3 * (1 - ease);
-          mesh.position.y = mesh.userData.animStartPos.y + 0.3 * (1 - ease);
-          mesh.position.z = mesh.userData.animStartPos.z;
-
-          // Interpolate scale
-          mesh.scale.setScalar(0.1 + 0.9 * ease);
-
-          // Fade in
-          const isIntegumentary = mesh.userData.system === 'integumentary' || mesh.userData.system === 'body surface';
-          mesh.material.opacity = isIntegumentary ? 0.1 : ease;
-        });
-
-        if (progress < 1) {
-          requestAnimationFrame(animateFrame);
-        } else {
-          // Animation complete - restore full state
-          selectedMeshes.forEach(mesh => {
-            mesh.position.copy(mesh.userData.animStartPos);
-            mesh.scale.setScalar(1);
-            const isIntegumentary = mesh.userData.system === 'integumentary' || mesh.userData.system === 'body surface';
-            mesh.material.opacity = isIntegumentary ? 0.1 : 1;
-            mesh.material.transparent = isIntegumentary;
-            mesh.material.depthWrite = !isIntegumentary;
-            animatingMeshes.delete(mesh);
-            delete mesh.userData.animStartPos;
-          });
-        }
-      }
-
-      requestAnimationFrame(animateFrame);
     }
 
     function buildSystemsPanel() {
@@ -674,6 +598,9 @@
 
         switch (event.data.type) {
           case 'showFullModel':
+            // Remove awaiting class to show the model
+            document.getElementById('container').classList.remove('awaiting-qlik');
+
             // No filter active - show all parts based on system toggles
             selectableParts.clear();
             qlikSelectedParts.clear();
@@ -701,6 +628,9 @@
             break;
 
           case 'setSelectableParts':
+            // Remove awaiting class to show the model
+            document.getElementById('container').classList.remove('awaiting-qlik');
+
             // Qlik sends us the parts that are selectable (not excluded)
             selectableParts.clear();
             qlikSelectedParts.clear();
@@ -776,19 +706,6 @@
             console.log('Mesh to Qlik mappings:', meshToQlikName.size);
 
             document.getElementById('selectable-count').textContent = selectableParts.size;
-
-            // Animate selected parts on first selection
-            if (isFirstSelection && qlikSelectedParts.size > 0) {
-              isFirstSelection = false;
-              // Find meshes that are selected
-              const selectedMeshes = meshes.filter(m => {
-                const qlikName = meshToQlikName.get(m.userData.name);
-                return qlikName && qlikSelectedParts.has(qlikName.toLowerCase());
-              });
-              console.log('🎬 Animating', selectedMeshes.length, 'selected parts');
-              animateSelectedParts(selectedMeshes);
-            }
-
             updateVisibility();
             updateSelectionUI();
             focusOnVisibleParts();
