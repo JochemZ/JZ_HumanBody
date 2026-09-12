@@ -20,13 +20,14 @@ define([
       qHyperCubeDef: {
         qDimensions: [],
         qMeasures: [],
-        qInitialDataFetch: [{ qWidth: 10, qHeight: 5000 }],
+        qInitialDataFetch: [{ qWidth: 2, qHeight: 3000 }],
         qSuppressZero: false,
         qSuppressMissing: false,
         qMode: 'S'
       },
       showSystemsPanel: false,
       showInfoPanel: true,
+      showViewModeMenu: true,
       iframeUrl: 'https://5c7febc9-1d66-403b-955b-ade3ed4e03c8-00-utqzmhghz4wv.spock.replit.dev',
       borderColor: '',
       borderWidth: 0,
@@ -68,6 +69,12 @@ define([
                   type: 'boolean',
                   label: 'Show Selection Panel',
                   ref: 'showInfoPanel',
+                  defaultValue: true
+                },
+                showViewModeMenu: {
+                  type: 'boolean',
+                  label: 'Show View Mode Menu (Ghost/Isolate)',
+                  ref: 'showViewModeMenu',
                   defaultValue: true
                 },
                 enableZoomIn: {
@@ -138,8 +145,10 @@ define([
         instanceState.set(objectId, state);
       }
 
-      // Update state with current backendApi and data (for message handler to use)
+      // Update state with current references (for message handler and repaint to use)
       state.backendApi = self.backendApi;
+      state.$element = $element;
+      state.layout = layout;
 
       if (!layout.iframeUrl || layout.iframeUrl.trim() === '') {
         $element.html(`
@@ -151,7 +160,65 @@ define([
         return;
       }
 
-      const qMatrix = layout.qHyperCube.qDataPages[0]?.qMatrix || [];
+      // Get all data - combine all data pages
+      let qMatrix = [];
+      const dataPages = layout.qHyperCube.qDataPages || [];
+      dataPages.forEach(page => {
+        if (page.qMatrix) {
+          qMatrix = qMatrix.concat(page.qMatrix);
+        }
+      });
+
+      // Check if we need to fetch more data (pagination)
+      const totalRows = layout.qHyperCube.qSize?.qcy || 0;
+      const fetchedRows = qMatrix.length;
+      console.log(`📊 Data: ${fetchedRows} rows fetched, ${totalRows} total available`);
+
+      // Clear additional rows cache if the total changed (new selection)
+      if (state.lastTotalRows !== totalRows) {
+        state.additionalRows = null;
+        state.lastTotalRows = totalRows;
+      }
+
+      // Combine initial data with any additional fetched data
+      if (state.additionalRows && state.additionalRows.length > 0) {
+        qMatrix = qMatrix.concat(state.additionalRows);
+      }
+
+      // Check if we have all data
+      const haveAllData = qMatrix.length >= totalRows;
+
+      // If we haven't fetched all rows and have backendApi, request more
+      if (!haveAllData && self.backendApi && !state.fetchingMore) {
+        state.fetchingMore = true;
+        state.lastSentParts = null; // Force resend when more data arrives
+        const rowsToFetch = Math.min(totalRows - qMatrix.length, 5000);
+        console.log(`📥 Fetching ${rowsToFetch} more rows (have ${qMatrix.length}/${totalRows})...`);
+        self.backendApi.getData([{
+          qTop: fetchedRows,
+          qLeft: 0,
+          qWidth: 2,
+          qHeight: rowsToFetch
+        }]).then(dataPages => {
+          state.fetchingMore = false;
+          // Store the additional data in state
+          if (dataPages && dataPages[0] && dataPages[0].qMatrix) {
+            state.additionalRows = (state.additionalRows || []).concat(dataPages[0].qMatrix);
+            console.log(`✅ Fetched ${dataPages[0].qMatrix.length} more rows, total: ${state.additionalRows.length}`);
+            // Force a repaint by calling paint again with stored references
+            if (state.$element && state.layout) {
+              state.lastSentParts = null;
+              self.paint(state.$element, state.layout);
+            }
+          }
+        }).catch(err => {
+          state.fetchingMore = false;
+          console.warn('⚠️ Failed to fetch more data:', err);
+        });
+        // Skip iframe update while fetching - will update when complete
+        return;
+      }
+
       const dimInfo = layout.qHyperCube.qDimensionInfo?.[0];
       const stateCounts = dimInfo?.qStateCounts || {};
       const excludedCount = (stateCounts.qExcluded || 0) + (stateCounts.qSelectedExcluded || 0) + (stateCounts.qLockedExcluded || 0);
@@ -246,7 +313,8 @@ define([
         sendToIframe('settings', {
           showSystemsPanel: layout.showSystemsPanel !== false,
           showInfoPanel: layout.showInfoPanel !== false,
-          showStatusBar: layout.showStatusBar !== false
+          showStatusBar: layout.showStatusBar !== false,
+          showViewModeMenu: layout.showViewModeMenu !== false
         });
 
         // Build cache key
@@ -286,7 +354,23 @@ define([
           .css({ width: '100%', height: '100%', position: 'relative', background: 'transparent', boxSizing: 'border-box', overflow: 'hidden' })
           .appendTo($element);
 
-        // Animation disabled - was animating UI elements too
+        // Zoom-in animation settings
+        const enableZoomIn = layout.enableZoomIn !== false;
+        const zoomDuration = layout.zoomInDuration || 2.5;
+
+        // Add waiting class that hides until animation starts
+        if (enableZoomIn) {
+          $container.addClass('jz-atlas-waiting');
+
+          // Fallback: if ready event doesn't fire in 5 seconds, show anyway
+          setTimeout(() => {
+            if ($container.hasClass('jz-atlas-waiting')) {
+              console.log('⚠️ Fallback: showing without animation');
+              $container.removeClass('jz-atlas-waiting');
+              $container.css({ transform: 'scale(1)', opacity: '1' });
+            }
+          }, 5000);
+        }
 
         // Apply border if configured
         if (layout.borderColor && layout.borderWidth > 0) {
@@ -311,6 +395,12 @@ define([
             case 'ready':
               state.iframeReady = true;
               console.log('✅ Iframe ready');
+              // Trigger zoom-in animation if enabled
+              if (enableZoomIn) {
+                $container.removeClass('jz-atlas-waiting');
+                $container.addClass('jz-atlas-zoom-in');
+                $container.css('animation-duration', zoomDuration + 's');
+              }
               updateIframe();
               break;
 

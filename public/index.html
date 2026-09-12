@@ -232,7 +232,7 @@
       camera = new THREE.PerspectiveCamera(34, container.clientWidth / container.clientHeight, 0.01, 50);  // Better near/far balance
       camera.position.set(0, 0, 3);
 
-      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, premultipliedAlpha: false });
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, premultipliedAlpha: false, logarithmicDepthBuffer: true });
       renderer.sortObjects = true;  // Let Three.js handle depth sorting naturally
       renderer.setClearColor(0x000000, 0); // Transparent clear color
       renderer.domElement.style.background = 'transparent';
@@ -243,8 +243,13 @@
       renderer.toneMappingExposure = 1.12;
       container.appendChild(renderer.domElement);
 
+      // Use subtle environment lighting without affecting background
       const pmremGenerator = new THREE.PMREMGenerator(renderer);
-      scene.environment = pmremGenerator.fromScene(new RoomEnvironment(), 0.04).texture;
+      const envTexture = pmremGenerator.fromScene(new RoomEnvironment(), 0.02).texture;
+      scene.environment = envTexture;
+      // Ensure no background - environment is for lighting only
+      scene.background = null;
+      scene.backgroundIntensity = 0;
 
       controls = new OrbitControls(camera, renderer.domElement);
       controls.enableDamping = true;
@@ -460,9 +465,30 @@
       applyHighlights();
     }
 
+    // System depth order - inner to outer
+    const SYSTEM_DEPTH_ORDER = {
+      'skeletal': 1,
+      'nervous': 2,
+      'arterial': 3,
+      'venous': 4,
+      'cardiac': 5,
+      'respiratory': 6,
+      'digestive': 7,
+      'urinary': 8,
+      'lymphatic': 9,
+      'endocrine': 10,
+      'reproductive': 11,
+      'muscular': 12,
+      'connective': 13,
+      'sensory': 14,
+      'integumentary': 100  // Always outermost
+    };
+
     function applyHighlights() {
       const hasQlikFilter = selectableParts.size > 0;
       const hasQlikSelection = qlikSelectedParts.size > 0;
+
+      const debugStats = { visible: 0, hidden: 0, bySystem: {} };
 
       meshes.forEach(mesh => {
         const meshName = mesh.userData.name;
@@ -475,8 +501,14 @@
         const systemEnabled = SYSTEMS[systemKey]?.enabled ?? true;
         const isIntegumentary = systemKey === 'integumentary' || systemKey === 'body surface';
 
-        // Integumentary (skin) always stays semi-transparent
+        // Integumentary (skin) handling
         if (isIntegumentary) {
+          // In isolate mode with selection, hide skin unless it's selected
+          if (hasQlikSelection && viewMode === 'isolate' && !isQlikSelected) {
+            mesh.visible = false;
+            return;
+          }
+          // In ghost mode or no selection, show semi-transparent
           mesh.visible = systemEnabled;
           mesh.material.emissive = new THREE.Color(0x000000);
           mesh.material.emissiveIntensity = 0;
@@ -499,13 +531,15 @@
             mesh.renderOrder = 10;
           } else if (isQlikSelected) {
             // Qlik has this part selected - visible, no highlight
+            // Use depth order based on system type for proper layering
+            const depthOrder = SYSTEM_DEPTH_ORDER[systemKey] || 10;
             mesh.visible = systemEnabled;
             mesh.material.emissive = new THREE.Color(0x000000);
             mesh.material.emissiveIntensity = 0;
             mesh.material.opacity = 1;
             mesh.material.transparent = false;
             mesh.material.depthWrite = true;
-            mesh.renderOrder = 10;
+            mesh.renderOrder = depthOrder;
           } else {
             // Not selected - ghost or isolate based on viewMode
             if (viewMode === 'isolate') {
@@ -541,6 +575,28 @@
           mesh.material.depthWrite = true;
           mesh.renderOrder = 0;
         }
+
+        // Track debug stats
+        if (!debugStats.bySystem[systemKey]) {
+          debugStats.bySystem[systemKey] = { visible: 0, hidden: 0, selected: 0 };
+        }
+        if (mesh.visible) {
+          debugStats.visible++;
+          debugStats.bySystem[systemKey].visible++;
+          if (isQlikSelected) debugStats.bySystem[systemKey].selected++;
+        } else {
+          debugStats.hidden++;
+          debugStats.bySystem[systemKey].hidden++;
+        }
+      });
+
+      console.log('🎨 applyHighlights:', {
+        mode: viewMode,
+        hasQlikSelection,
+        qlikSelectedCount: qlikSelectedParts.size,
+        totalVisible: debugStats.visible,
+        totalHidden: debugStats.hidden,
+        bySystem: debugStats.bySystem
       });
     }
 
@@ -672,9 +728,11 @@
             console.log('🔑 Code-based matching available:', hasCodeData, 'codes:', qlikCodeMap.size);
 
             // Match meshes: try code first (if available), then name
+            const unmatchedMeshes = [];
             meshes.forEach(mesh => {
               const meshName = mesh.userData.name;
               const meshPartId = mesh.userData.partId;
+              const meshSystem = mesh.userData.system;
               const meshNameLower = meshName.toLowerCase().trim();
 
               // Try code match first (most reliable)
@@ -685,11 +743,31 @@
                 // Fall back to name match
                 meshToQlikName.set(meshName, qlikNameMap.get(meshNameLower));
                 matchCount++;
+              } else {
+                // Track unmatched meshes
+                unmatchedMeshes.push({ name: meshName, partId: meshPartId, system: meshSystem });
               }
             });
 
             console.log('🔍 Sample mesh partIds:', meshes.slice(0, 3).map(m => m.userData.partId));
             console.log('🔍 Sample Qlik codes:', Array.from(qlikCodeMap.keys()).slice(0, 3));
+
+            // Log unmatched meshes by system
+            if (unmatchedMeshes.length > 0) {
+              const unmatchedBySystem = {};
+              unmatchedMeshes.forEach(m => {
+                if (!unmatchedBySystem[m.system]) unmatchedBySystem[m.system] = [];
+                unmatchedBySystem[m.system].push(m.name);
+              });
+              console.log('⚠️ UNMATCHED MESHES:', unmatchedMeshes.length, 'by system:',
+                Object.keys(unmatchedBySystem).map(s => `${s}: ${unmatchedBySystem[s].length}`).join(', '));
+              // Show first 5 unmatched per system
+              Object.entries(unmatchedBySystem).forEach(([sys, names]) => {
+                if (names.length > 0) {
+                  console.log(`   ${sys}: ${names.slice(0, 3).join(', ')}${names.length > 3 ? ` ... +${names.length - 3} more` : ''}`);
+                }
+              });
+            }
 
             console.log('📊 MATCHING RESULTS:');
             console.log(`   Qlik parts: ${parts.length}`);
@@ -707,6 +785,7 @@
 
             document.getElementById('selectable-count').textContent = selectableParts.size;
             updateVisibility();
+            applyHighlights();  // Apply ghost/isolate mode based on selection
             updateSelectionUI();
             focusOnVisibleParts();
             break;
@@ -718,6 +797,9 @@
             }
             if (s.showInfoPanel !== undefined) {
               document.getElementById('info').style.display = s.showInfoPanel ? 'block' : 'none';
+            }
+            if (s.showViewModeMenu !== undefined) {
+              document.getElementById('view-mode-toolbar').style.display = s.showViewModeMenu ? 'flex' : 'none';
             }
             break;
         }
