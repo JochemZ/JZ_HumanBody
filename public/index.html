@@ -133,8 +133,8 @@
     </div>
 
     <div id="view-mode-toolbar" style="display: none;">
-      <button class="view-mode-btn active" data-mode="ghost" title="Show ghost outline of non-selected parts">Ghost</button>
-      <button class="view-mode-btn" data-mode="isolate" title="Show only selected parts">Isolate</button>
+      <button class="view-mode-btn" data-mode="ghost" title="Show ghost outline of non-selected parts">Ghost</button>
+      <button class="view-mode-btn active" data-mode="isolate" title="Show only selected parts">Isolate</button>
     </div>
 
     <div id="info" style="display: none;">
@@ -184,7 +184,7 @@
     let pendingSelection = new Set(); // Qlik part names user clicked (in memory)
     let qlikSelectedParts = new Set(); // parts currently selected in Qlik
     let meshToQlikName = new Map();   // atlas mesh name -> Qlik part name
-    let viewMode = 'ghost';           // 'ghost' = show transparent outline, 'isolate' = hide non-selected
+    let viewMode = 'isolate';          // 'ghost' = show transparent outline, 'isolate' = hide non-selected
 
     const qlikAPI = {
       send: (type, data) => {
